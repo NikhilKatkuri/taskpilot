@@ -1,0 +1,26 @@
+employee_id,name,role,skills,experience_years,current_workload_percent
+EMP001,Aarav Sharma,AI Engineer,Python;LLMs;LangChain;ML,4,40
+EMP002,Riya Patel,Data Scientist,Python;Data Analysis;ML;Pandas,3,35
+EMP003,Vikram Singh,Backend Developer,Node.js;APIs;Databases,5,50
+EMP004,Sneha Reddy,Frontend Developer,React;UI/UX;JavaScript,2,30
+EMP005,Karthik Rao,DevOps Engineer,Docker;Kubernetes;AWS;CI/CD,4,45
+EMP006,Meera Nair,AI Researcher,LLMs;NLP;RAG;Deep Learning,6,55
+EMP007,Divya Pillai,AI Engineer,LangChain,8,30
+EMP008,Rohan Das,MLOps Engineer,Python,7,65
+EMP009,Rahul Verma,AI Engineer,PyTorch,6,44
+EMP010,Manish Gupta,AI Engineer,Node.js,1,37
+EMP011,Manish Gupta,Backend Developer,LangChain,6,21
+EMP012,Ishita Banerjee,ML Engineer,SQL,1,24
+EMP013,Manish Gupta,MLOps Engineer,PyTorch,3,59
+EMP014,Neha Kapoor,Data Scientist,TensorFlow,8,31
+EMP015,Sonal Mishra,ML Engineer,Node.js,2,32
+EMP016,Varun Khanna,Data Scientist,Python,2,24
+EMP017,Harsh Vardhan,AI Engineer,LangChain,6,20
+EMP018,Aditya Kulkarni,MLOps Engineer,PyTorch,2,22
+EMP019,Amit Chatterjee,MLOps Engineer,LangChain,1,58
+EMP020,Kavya Sharma,Backend Developer,LangChain,4,50
+EMP021,Harsh Vardhan,Data Scientist,TensorFlow,8,40
+EMP022,Neha Kapoor,ML Engineer,Node.js,8,47
+EMP023,Harsh Vardhan,MLOps Engineer,PyTorch,4,51
+EMP024,Harsh Vardhan,Data Scientist,Node.js,2,43
+EMP025,Aditya Kulkarni,ML Engineer,Node.js,6,57
