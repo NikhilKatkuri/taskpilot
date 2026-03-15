@@ -1,214 +1,130 @@
-# Autonomous Workflow AI Agent
+<div align="center">
+  <img src="./frontend/public/globe.svg" width="100" />
+  <h1>TaskMinds - Advanced AI Agent</h1>
+  <p>An intelligent AI agent platform built for project planning, dynamic task breakdown, and automated workforce allocation.</p>
+  
+  <p>
+    <b>Team</b>: Stratify Minds <br/>
+    <b>Members</b>: Nikhil Katkuri, Niveditha Katta
+  </p>
+</div>
 
-## Overview
+<br/>
 
-An intelligent project management system powered by multiple specialized AI agents. Instead of manual task distribution and coordination, the system autonomously analyzes projects, decomposes tasks, matches staff to work, and recommends optimal resources all while learning from organizational history.
+## 💡 The Idea
+Managing agile engineering and business teams requires knowing exactly who is available, mapping their unique skills to dynamic project requirements, safely allocating the best development tools, and seamlessly scaling task logic.
 
-### The Problem
+**The Problem:** Traditional enterprise resource management dashboards are passive and heavily manual. Searching through isolated datasets for employees, managing constraints, and architecting project pipelines is stressful and prone to blind spots.
 
-Organizations struggle with:
-- **Inefficient task distribution** — manual matching wastes employee skills
-- **Workload imbalance** — no real-time visibility into capacity
-- **Slow decision-making** — planning happens offline, not dynamically
-- **Poor resource selection** — technology choices not optimized
-- **Lack of learning** — repeated mistakes from project to project
+## 🚀 The Solution: TaskMinds
+TaskMinds is a deterministic, AI-first workforce allocation assistant. Instead of passive UI graphs, TaskMinds inherently understands your entire internal organization and executes requests autonomously using multi-step pipelines.
 
-### The Solution
-
-A multi-agent AI system that handles project coordination autonomously with minimal human intervention—analyzing requirements, planning work, assigning tasks, and improving decisions based on historical outcomes.
-
-## Multi-Agent Architecture
-
-The system consists of four specialized agents that work together in sequence:
-
-### 1. Planner Agent
-**Role:** Task decomposition  
-**Input:** Project description  
-**Output:** Structured task breakdown with dependencies
-
-Analyzes high-level project goals and breaks them into executable tasks with clear scope.
-
-Example:
-```
-Project: "AI Sales Assistant"
-↓
-- API Integration & Setup
-- Prompt Engineering & Optimization  
-- Backend Service Development
-- Deployment & Monitoring
-```
-
-### 2. Allocator Agent
-**Role:** Skill-based task assignment  
-**Input:** Tasks, employee profiles, workload data  
-**Output:** Optimal task-to-employee mapping
-
-Matches tasks with team members based on:
-- Technical skills compatibility
-- Current workload percentage
-- Role specialization
-- Availability
-
-| Task | Assigned To | Workload |
-|------|-------------|----------|
-| API Integration | Backend Dev (Node.js) | +20h |
-| Prompt Eng. | AI Engineer (LLM) | +15h |
-| Deployment | DevOps Engineer (Docker) | +10h |
-
-### 3. Resource Agent
-**Role:** Technology stack recommendation  
-**Input:** Project requirements and tasks  
-**Output:** Optimal tool selection
-
-Recommends:
-- Framework & languages
-- Infrastructure & databases
-- AI/ML services
-- Deployment platforms
-
-Example recommendations:
-```
-Backend → Node.js + Express
-AI Model → Groq API (Llama 3.1)
-Database → PostgreSQL
-Cache → Redis
-Infrastructure → Docker + Kubernetes
-```
-
-### 4. Historian Agent
-**Role:** Pattern recognition & learning  
-**Input:** Historical project data  
-**Output:** Success patterns and insights
-
-Analyzes past projects to:
-- Identify success patterns
-- Predict project duration
-- Recommend team sizes
-- Improve future allocations
-
-Example insights:
-```
-✓ 4-person teams → 92% success rate
-✓ Projects with vector DBs → 25% faster search features
-✓ Microservices architecture → 18% longer dev time
-```
-
-## System Architecture
-
-```
-┌─────────────────────────────────────┐
-│      Project Input                  │
-│ (Description + Team Roster)         │
-└────────────────┬────────────────────┘
-                 │
-    ┌────────────▼────────────┐
-    │   Planner Agent         │◄──── Analyze & Decompose
-    │   Task Breakdown        │
-    └────────────┬────────────┘
-                 │
-    ┌────────────▼────────────┐
-    │   Allocator Agent       │◄──── Match Skills & Assign
-    │   Task Assignment       │
-    └────────────┬────────────┘
-                 │
-    ┌────────────▼────────────┐
-    │   Resource Agent        │◄──── Recommend Tools
-    │   Tech Stack Selection  │
-    └────────────┬────────────┘
-                 │
-    ┌────────────▼────────────┐
-    │   Historian Agent       │◄──── Learn Patterns
-    │   Pattern Analysis      │
-    └────────────┬────────────┘
-                 │
-    ┌────────────▼────────────┐
-    │   Final Workflow Plan   │
-    │ • Task assignments      │
-    │ • Resource allocations  │
-    │ • Technology stack      │
-    │ • Risk assessment       │
-    └──────────────────────── ┘
-```
-
-## Technical Implementation
-
-### Data Sources
-- **Projects Dataset** (`neurax_projects_dataset.csv`) — Project specifications and requirements
-- **Employees Dataset** (`neurax_employees_dataset.csv`) — Team member skills, experience, workload
-- **Tools Dataset** (`neurax_tools_dataset.csv`) — Available technologies and frameworks
-- **History Dataset** (`neurax_project_history_dataset.csv`) — Past project outcomes and metrics
-
-### Tech Stack
-
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **Backend** | Node.js + TypeScript + Express | REST API and business logic |
-| **AI/LLM** | Groq API (Llama 3.1 70B) | Advanced reasoning and planning |
-| **Agent Framework** | LangChain / LangGraph | Multi-agent orchestration |
-| **Database** | MongoDB | Project and employee data | 
-| **Frontend** | Next.js + React | User interface |
-| **Deployment** | Docker | Containerization |
-
-## Key Design Decisions
- 
-
-**Multi-Agent over Monolithic:** Each agent specializes in one decision—better modularity and testing.
-
-**LLM-Based Reasoning:** Handles complex, non-deterministic project requirements naturally.
-
-**Data-Driven Learning:** Historical analysis improves recommendations over time.
-
-**Transparent & Explainable:** Each agent provides reasoning for its decisions—not a black box.
-
-## Key Features
-
-| Feature | Benefit |
-|---------|---------|
-| **Automatic Task Decomposition** | Breaks complex projects into executable tasks instantly |
-| **Skill-Based Assignment** | Matches work to team members—no manual matching needed |
-| **Dynamic Resource Planning** | Recommends optimal tech stack automatically |
-| **Historical Learning** | Improves recommendations based on past project data |
-| **Minimal Human Intervention** | AI makes decisions; managers approve/override as needed |
-| **Explainable Decisions** | Each agent shows reasoning for its choices |
-
-## Innovation
-
-This project introduces:
-
-1. **Multi-Agent Architecture** — Specialized agents > single monolithic model
-2. **Skill-Aware Allocation** — Automatic matching of work to competencies
-3. **Data-Driven Improvement** — Learning from organizational history
-4. **Autonomous Planning** — No manual task breakdown required
-5. **Real-Time Adaptation** — Adjusts workflows when conditions change
-
-Unlike traditional project management software that only tracks status, this system **actively reasons and makes autonomous decisions**.
-
-## Expected Impact
-
-Organizations using this system can achieve:
-
-- **40-50% reduction** in project planning time
-- **20-30% improvement** in employee utilization
-- **Consistent team sizing** based on historical success patterns
-- **Better technology decisions** based on past outcomes
-- **Data-driven insights** into what works for your organization
-
-### Who Benefits?
-- Software development teams
-- Consulting firms
-- Research organizations
-- Startups managing multiple concurrent projects
-- Enterprise PMO offices
-
-
-## Conclusion
-
-The Autonomous Workflow AI Agent transforms project management from a manual, reactive process into an intelligent, data-driven system. By combining multiple specialized AI agents with organizational learning, the system enables autonomous decision-making for complex workflows.
-
-This approach represents a fundamental shift in how teams plan and execute projects—replacing manual coordination with AI-powered optimization that improves continuously.
+- **Automated Data Pipelines**: A dedicated UI feed dashboard that drops raw CSV organizational datasets, normalizes them in the browser, and pipes them directly to isolated database clusters.
+- **Context-Aware Agent Engine**: High-speed AI inference (powered by Groq `llama-3.3-70b`) structured securely via LangChain schemas. The agent acts on a real-time, sandboxed subset of your active database (Employees, Projects, Tools, History).
+- **Real-Time Websocket Tracing**: No more "frozen" loading screens. As the internal AI logic progresses natively through its pipeline, it streams its sub-states (*"Analyzing context..."*, *"Fetching internal data..."*, *"Thinking..."*) directly to the user's interactive chat prompt using `Socket.io`.
+- **Beautiful Enterprise UI**: Sleek dark-mode compatible interface built completely with pristine Radix and Tailwind components, featuring optimistic UI chat editing and fully transient multi-tenant sessions via Firebase Auth.
 
 ---
 
-**Status:** In Development  
-**Last Updated:** March 2026  
-**Node Requirement:** 18+
+## 🛠️ Key Tech Stack
+
+**Frontend Framework Components:**
+- Next.js 16 (App Router) + React 19 (Turbopack)
+- Tailwind CSS v4 + native raw CSS configuration
+- shadcn/ui + Radix UI Primitives 
+- Firebase Auth 
+
+**Agent & Backend Architecture:**
+- Node.js + Express.js backend (TypeScript)
+- LangChain Core + Groq SDK integrations
+- Socket.io (for real-time pipeline event streams)
+- MongoDB via Mongoose (Multi-tenant optimized database queries)
+
+---
+
+## 📂 Project Structure
+
+```text
+taskpilot/
+├── frontend/                 # NextJS Application
+│   ├── src/app/
+│   │   ├── c/page.tsx        # Main Agent Chat UI
+│   │   └── c/feed/page.tsx   # CSV Data Ingestion Hub
+│   ├── src/components/       # UI building blocks (Sidebar, PromptBox)
+│   └── src/lib/              # chatApi, socket managers, firebase config
+│   
+└── backend/                  # Node/Express Service
+    ├── src/agents/           # Custom Langchain Agent Handlers
+    ├── src/models/           # MongoDB schemas (Employees, Projects, Tools)
+    ├── src/pipeline/         # AI planning models, tool matchers, CSV normalizers
+    ├── src/routes/           # App routes
+    └── src/socket.ts         # Central WebSocket broadcast service
+```
+
+---
+
+## 🏎️ Getting Started
+
+### 1. Prerequisites
+Ensure you have the following installed locally:
+- **Node.js** (v20+)
+- **pnpm** package manager
+- **MongoDB** running natively on `localhost:27017`
+- A **Firebase** Web Project (for client-side auth keys)
+- A **Groq Cloud** API Key
+
+### 2. Environment Variables
+
+Create and fill out `.env` files in both directories.
+
+**`backend/.env`**
+```env
+TASKMINDS_APP_NODE_ENV=development
+TASKMINDS_APP_PORT=4000
+TASKMINDS_APP_HOST=0.0.0.0
+
+TASKMINDS_APP_DATABASE_URL=mongodb://localhost:27017/taskminds
+TASKMINDS_APP_CORS_ORIGINS=http://localhost:3000
+
+# Your Groq AI API Key 
+TASKMINDS_APP_GROQ_API_KEY=gsk_your_groq_api_key_here
+```
+
+**`frontend/.env.local`** (or `.env`)
+```env
+NEXT_PUBLIC_API_BASE_URL=http://localhost:4000/api/v1
+
+# Firebase configuration values
+NEXT_PUBLIC_FIREBASE_API_KEY=your_key_here
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+```
+
+### 3. Installation & Run Instructions
+
+**Start the MongoDB Database**
+Ensure your local mongo daemon is running. Open your terminal:
+```bash
+# If using brew on macOS
+brew services start mongodb-community
+```
+
+**Boot the Node Express/Agent Backend**
+```bash
+cd backend
+pnpm install
+pnpm run dev
+```
+
+**Boot the Next.js Client**
+Open a new terminal session.
+```bash
+cd frontend
+pnpm install
+pnpm run dev
+```
+
+The application client will be exposed at **`http://localhost:3000`**. You can now login, load `.csv` datasets via the Feed dashboard, and chat with your fully localized organizational AI!
