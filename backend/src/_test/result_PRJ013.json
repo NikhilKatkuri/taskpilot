@@ -1,0 +1,78 @@
+{
+  "project": {
+    "project_id": "PRJ013",
+    "project_name": "Energy Consumption Predictor",
+    "description": "Automation",
+    "required_skills": [
+      "6"
+    ],
+    "deadline_days": "45",
+    "priority": "High"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Collection",
+      "description": "Gather historical energy consumption data from various sources",
+      "required_skills": [
+        "data mining",
+        "data preprocessing"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "Feature Engineering",
+      "description": "Extract relevant features from collected data to train the predictor model",
+      "required_skills": [
+        "data analysis",
+        "machine learning"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Model Development",
+      "description": "Develop and train a predictive model using the engineered features",
+      "required_skills": [
+        "machine learning",
+        "python"
+      ],
+      "estimated_days": 12
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Model Evaluation",
+      "description": "Evaluate the performance of the developed model using various metrics",
+      "required_skills": [
+        "machine learning",
+        "data analysis"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Deployment",
+      "description": "Deploy the predictor model as a web application or API",
+      "required_skills": [
+        "cloud computing",
+        "api"
+      ],
+      "estimated_days": 9
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP019",
+    "TASK002": "EMP013",
+    "TASK003": "EMP008",
+    "TASK004": "EMP017",
+    "TASK005": "EMP011"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": []
+  }
+}

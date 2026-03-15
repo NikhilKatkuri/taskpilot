@@ -134,7 +134,7 @@ projectRouter.post("/user/:userid/chats/:chatid/reply", async (req, res) => {
       .join("\n");
 
     sendProgress(userid, "Fetching internal data...");
-
+   
     const models = ['employees', 'projects', 'tools', 'project history'];
     const data = await Promise.all(models.map(async (model) => {
       const Model = getModel(model);
@@ -146,6 +146,7 @@ projectRouter.post("/user/:userid/chats/:chatid/reply", async (req, res) => {
         .exec();
     }));
 
+    
     sendProgress(userid, "Thinking...");
 
     // data[0]=employees, data[1]=projects, data[2]=tools, data[3]=history

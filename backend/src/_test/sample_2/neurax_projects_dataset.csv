@@ -1,0 +1,26 @@
+project_id,project_name,description,required_skills,deadline_days,priority
+PRJ001,AI Sales Assistant,AI assistant that generates sales proposals automatically,LLM;NLP;APIs,30,High
+PRJ002,Healthcare Diagnosis Model,Predict early disease risk using ML models,ML;Data Analysis;Python,45,High
+PRJ003,Customer Support Chatbot,AI chatbot for customer support queries,LLM;RAG;APIs,25,Medium
+PRJ004,Smart Inventory System,Automated inventory demand prediction system,Python;ML;Data Engineering,40,Medium
+PRJ005,AI Resume Screener,NLP,5,20,Low
+PRJ006,AI Marketing Generator,Data Science,8,45,Medium
+PRJ007,Insurance Risk Analyzer,Data Science,3,49,Low
+PRJ008,Cybersecurity Threat Detector,Automation,9,55,Low
+PRJ009,Voice Assistant Platform,NLP,5,37,High
+PRJ010,Voice Assistant Platform,ML Platform,5,50,High
+PRJ011,E‑commerce Recommendation AI,NLP,5,58,Medium
+PRJ012,Insurance Risk Analyzer,NLP,10,33,Medium
+PRJ013,Energy Consumption Predictor,Automation,6,45,High
+PRJ014,Smart Healthcare Assistant,NLP,5,39,Low
+PRJ015,AI HR Assistant,ML Platform,10,43,Medium
+PRJ016,AI Resume Screener,Automation,5,59,Medium
+PRJ017,AI Education Tutor,Computer Vision,4,39,Low
+PRJ018,Smart Logistics Planner,ML Platform,3,40,Low
+PRJ019,Autonomous Chat Agent,NLP,5,55,High
+PRJ020,Autonomous Chat Agent,NLP,4,34,High
+PRJ021,Video Content Analyzer,Automation,3,37,Low
+PRJ022,AI Education Tutor,Computer Vision,5,44,Medium
+PRJ023,Personal Finance Advisor,Data Science,7,33,Low
+PRJ024,Retail Demand Predictor,Data Science,9,31,Medium
+PRJ025,AI Education Tutor,ML Platform,9,45,Low

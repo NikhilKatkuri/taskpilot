@@ -259,7 +259,7 @@ class DataProcessor {
 
 const main = async () => {
   const processor = new DataProcessor();
-  const sampleDir = path.join(__dirname, "sample");
+  const sampleDir = path.join(__dirname, "sample_2");
 
   if (!fs.existsSync(sampleDir)) {
     console.error("Directory './sample' not found.");

@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ006",
+    "project_name": "AI Marketing Generator",
+    "description": "Data Science",
+    "required_skills": [
+      "8"
+    ],
+    "deadline_days": "45",
+    "priority": "Medium"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Collection",
+      "description": "Gather and preprocess marketing data for AI model training",
+      "required_skills": [
+        "data science",
+        "data preprocessing"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "AI Model Development",
+      "description": "Design and train an AI model for generating marketing content",
+      "required_skills": [
+        "machine learning",
+        "deep learning"
+      ],
+      "estimated_days": 12
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Model Evaluation",
+      "description": "Evaluate the performance of the AI model using relevant metrics",
+      "required_skills": [
+        "data science",
+        "model evaluation"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "API Integration",
+      "description": "Integrate the AI model with a RESTful API for content generation",
+      "required_skills": [
+        "api",
+        "backend development"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Frontend Development",
+      "description": "Develop a user interface for interacting with the AI marketing generator",
+      "required_skills": [
+        "frontend development",
+        "ui/ux"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Deployment and Testing",
+      "description": "Deploy the AI marketing generator and perform thorough testing",
+      "required_skills": [
+        "devops",
+        "testing"
+      ],
+      "estimated_days": 5
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP014",
+    "TASK002": "EMP012",
+    "TASK003": "EMP004",
+    "TASK004": "EMP015",
+    "TASK005": "EMP002",
+    "TASK006": "EMP021"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}

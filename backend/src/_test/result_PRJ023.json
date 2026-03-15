@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ023",
+    "project_name": "Personal Finance Advisor",
+    "description": "Data Science",
+    "required_skills": [
+      "7"
+    ],
+    "deadline_days": "33",
+    "priority": "Low"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Ingestion",
+      "description": "Design and implement data ingestion pipelines for personal finance data",
+      "required_skills": [
+        "data engineering",
+        "data science"
+      ],
+      "estimated_days": 5
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "Data Preprocessing",
+      "description": "Develop data preprocessing techniques for handling missing values and outliers",
+      "required_skills": [
+        "data science",
+        "python"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Machine Learning Model Development",
+      "description": "Train and evaluate machine learning models for financial prediction and classification",
+      "required_skills": [
+        "machine learning",
+        "data science"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Model Deployment",
+      "description": "Deploy trained models using a suitable framework for integration with the advisor application",
+      "required_skills": [
+        "cloud computing",
+        "devops"
+      ],
+      "estimated_days": 5
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Frontend Development",
+      "description": "Design and develop a user-friendly interface for the personal finance advisor application",
+      "required_skills": [
+        "frontend development",
+        "ui/ux"
+      ],
+      "estimated_days": 7
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Testing and Validation",
+      "description": "Perform thorough testing and validation of the personal finance advisor application",
+      "required_skills": [
+        "software testing",
+        "quality assurance"
+      ],
+      "estimated_days": 4
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP007",
+    "TASK002": "EMP004",
+    "TASK003": "EMP014",
+    "TASK004": "EMP015",
+    "TASK005": "EMP002",
+    "TASK006": "EMP010"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}

@@ -1,0 +1,26 @@
+tool_id,tool_name,tool_type,purpose
+T001,OpenAI API,LLM API,Natural language reasoning and generation
+T002,Pinecone,Vector Database,RAG and semantic search
+T003,PostgreSQL,Database,Structured relational data storage
+T004,Google Search API,Search Engine,External information retrieval
+T005,LangChain,AI Framework,Agent orchestration and tool integration
+T006,MLOps Platform,NLP,Document information extraction
+T007,Feature Store,Computer Vision,Large scale data processing
+T008,Distributed Training Engine,Computer Vision,Speech to text conversion
+T009,Distributed Training Engine,AI,AI performance tracking
+T010,Experiment Tracker,Computer Vision,Prompt versioning and optimization
+T011,Vector Database,Automation,Automated communication workflows
+T012,Code Generation AI,Data,Speech to text conversion
+T013,Speech Recognition Engine,AI,Large scale data processing
+T014,Vector Database,Automation,Automatic code generation
+T015,Feature Store,Automation,Training data annotation
+T016,Image Classification Model,Data,Prompt versioning and optimization
+T017,Fraud Detection Model,NLP,Personalized recommendations
+T018,Prompt Management System,Computer Vision,Scalable model training
+T019,Email Automation Bot,AI,Automatic code generation
+T020,Data Labeling Platform,Automation,Relationship based knowledge queries
+T021,Image Classification Model,Automation,End‑to‑end ML lifecycle management
+T022,Anomaly Detection System,Data,Personalized recommendations
+T023,Distributed Training Engine,ML,Scalable model training
+T024,Image Classification Model,AI,Automated ML workflows
+T025,Fraud Detection Model,Data,Large scale data processing

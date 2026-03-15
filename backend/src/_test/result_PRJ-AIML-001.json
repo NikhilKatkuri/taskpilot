@@ -25,89 +25,76 @@
   "tasks": [
     {
       "task_id": "TASK001",
-      "task_name": "Platform Backend Setup",
-      "description": "Set up the backend infrastructure using Node.js, Python, and SQL to handle customer queries and support agent interactions",
+      "task_name": "Platform Backend Development",
+      "description": "Design and implement the backend of the customer support platform using Node.js, Python, and SQL",
       "required_skills": [
         "nodejs",
         "python",
         "sql"
       ],
-      "estimated_days": 4
-    },
-    {
-      "task_id": "TASK002",
-      "task_name": "LLM Integration",
-      "description": "Integrate LLM API for generating automated responses to customer queries",
-      "required_skills": [
-        "llm",
-        "api",
-        "python"
-      ],
-      "estimated_days": 5
-    },
-    {
-      "task_id": "TASK003",
-      "task_name": "AI Model Development",
-      "description": "Develop and train AI models using PyTorch, TensorFlow, and Pandas to improve query processing and response generation",
-      "required_skills": [
-        "pytorch",
-        "tensorflow",
-        "pandas",
-        "python"
-      ],
       "estimated_days": 8
     },
     {
-      "task_id": "TASK004",
-      "task_name": "Frontend Development",
-      "description": "Develop a user-friendly frontend using React to interact with the backend and display automated responses to customers",
+      "task_id": "TASK002",
+      "task_name": "AI Model Integration",
+      "description": "Integrate LLM, PyTorch, and TensorFlow for building AI-powered query processing and support agent assistance",
       "required_skills": [
-        "react",
-        "nodejs"
+        "llm",
+        "pytorch",
+        "tensorflow",
+        "python"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Frontend Development",
+      "description": "Develop the user interface of the customer support platform using React",
+      "required_skills": [
+        "react"
       ],
       "estimated_days": 6
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Data Storage and Management",
+      "description": "Implement data storage and management solutions using VectorDB and Pandas",
+      "required_skills": [
+        "vectordb",
+        "pandas",
+        "python"
+      ],
+      "estimated_days": 4
     },
     {
       "task_id": "TASK005",
       "task_name": "Containerization and Deployment",
-      "description": "Containerize the application using Docker and deploy it on Kubernetes for scalability and reliability",
+      "description": "Containerize the platform using Docker and deploy it using Kubernetes",
       "required_skills": [
         "docker",
         "kubernetes"
       ],
-      "estimated_days": 4
-    },
-    {
-      "task_id": "TASK006",
-      "task_name": "VectorDB and RAG Integration",
-      "description": "Integrate VectorDB and RAG to enhance the platform's semantic search and knowledge retrieval capabilities",
-      "required_skills": [
-        "vectordb",
-        "rag",
-        "python"
-      ],
       "estimated_days": 5
     },
     {
-      "task_id": "TASK007",
-      "task_name": "LangChain Integration and Testing",
-      "description": "Integrate LangChain to facilitate large language model interactions and perform thorough testing of the platform",
+      "task_id": "TASK006",
+      "task_name": "API Integration and Testing",
+      "description": "Integrate APIs for external services and test the entire platform for functionality and performance",
       "required_skills": [
-        "langchain",
-        "llm",
-        "python"
+        "api",
+        "python",
+        "nodejs"
       ],
-      "estimated_days": 6
+      "estimated_days": 7
     }
   ],
   "employeeAssignments": {
     "TASK001": "EMP0171",
-    "TASK002": "EMP0189",
-    "TASK003": "EMP0395",
-    "TASK004": "EMP0174",
-    "TASK005": "EMP0462",
-    "TASK006": "EMP0020",
-    "TASK007": "EMP0091"
+    "TASK002": "EMP0140",
+    "TASK003": "EMP0444",
+    "TASK004": "EMP0331",
+    "TASK005": "EMP0174",
+    "TASK006": "EMP0207"
   },
   "toolAssignments": {
     "TASK001": [],
@@ -115,7 +102,6 @@
     "TASK003": [],
     "TASK004": [],
     "TASK005": [],
-    "TASK006": [],
-    "TASK007": []
+    "TASK006": []
   }
 }

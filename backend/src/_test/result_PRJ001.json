@@ -15,7 +15,7 @@
     {
       "task_id": "TASK001",
       "task_name": "LLM Model Selection",
-      "description": "Select and integrate a suitable LLM model for generating sales proposals",
+      "description": "Select and integrate a suitable LLM model for sales proposal generation",
       "required_skills": [
         "llm",
         "nlp"
@@ -25,7 +25,7 @@
     {
       "task_id": "TASK002",
       "task_name": "API Design",
-      "description": "Design a RESTful API for interacting with the LLM model and retrieving generated proposals",
+      "description": "Design a RESTful API for interacting with the LLM model and retrieving generated sales proposals",
       "required_skills": [
         "api"
       ],
@@ -43,7 +43,7 @@
     {
       "task_id": "TASK004",
       "task_name": "API Implementation",
-      "description": "Implement the designed API and integrate it with the LLM model and data preprocessing pipeline",
+      "description": "Implement the designed API and integrate it with the LLM model and NLP pipeline",
       "required_skills": [
         "api",
         "llm"
@@ -52,12 +52,12 @@
     },
     {
       "task_id": "TASK005",
-      "task_name": "Frontend Development",
-      "description": "Develop a user-friendly frontend to interact with the API and display generated sales proposals",
+      "task_name": "Frontend Integration",
+      "description": "Develop a user interface to interact with the API and display generated sales proposals",
       "required_skills": [
         "frontend"
       ],
-      "estimated_days": 8
+      "estimated_days": 5
     },
     {
       "task_id": "TASK006",
@@ -68,7 +68,7 @@
         "llm",
         "nlp"
       ],
-      "estimated_days": 4
+      "estimated_days": 7
     }
   ],
   "employeeAssignments": {
@@ -80,39 +80,11 @@
     "TASK006": "EMP003"
   },
   "toolAssignments": {
-    "TASK001": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ],
-    "TASK002": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ],
+    "TASK001": [],
+    "TASK002": [],
     "TASK003": [],
-    "TASK004": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ],
+    "TASK004": [],
     "TASK005": [],
-    "TASK006": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ]
+    "TASK006": []
   }
 }

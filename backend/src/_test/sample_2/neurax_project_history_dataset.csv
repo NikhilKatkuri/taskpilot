@@ -1,0 +1,26 @@
+history_id,project_id,project_name,team_size,tools_used,completion_days,success_score
+H001,PRJ010,Fraud Detection AI,4,Python;Scikit-learn;PostgreSQL,28,0.92
+H002,PRJ011,AI Resume Screening,3,Python;NLP;FastAPI,22,0.89
+H003,PRJ012,Retail Recommendation Engine,5,TensorFlow;Python;Redis,35,0.94
+H004,PRJ020,Computer Vision,4,Medium,48,0.91
+H005,PRJ022,Computer Vision,7,Medium,45,0.94
+H006,PRJ019,ML Platform,8,Medium,27,0.91
+H007,PRJ009,ML Platform,3,High,44,0.87
+H008,PRJ022,Computer Vision,4,High,49,0.96
+H009,PRJ013,Data Science,4,High,39,0.85
+H010,PRJ002,Computer Vision,3,Medium,50,0.92
+H011,PRJ010,Computer Vision,4,High,18,0.86
+H012,PRJ011,NLP,8,Low,31,0.88
+H013,PRJ008,Computer Vision,8,Medium,43,0.95
+H014,PRJ020,ML Platform,6,High,42,0.85
+H015,PRJ006,ML Platform,8,Low,43,0.94
+H016,PRJ013,Data Science,8,Low,18,0.95
+H017,PRJ005,ML Platform,7,Low,48,0.95
+H018,PRJ023,Automation,3,Low,27,0.92
+H019,PRJ005,NLP,2,Low,25,0.86
+H020,PRJ021,Computer Vision,6,Medium,46,0.84
+H021,PRJ016,ML Platform,2,Low,29,0.93
+H022,PRJ007,Automation,8,Medium,32,0.93
+H023,PRJ022,Data Science,2,Medium,37,0.8
+H024,PRJ002,Data Science,5,Low,32,0.87
+H025,PRJ015,Computer Vision,6,Medium,28,0.94

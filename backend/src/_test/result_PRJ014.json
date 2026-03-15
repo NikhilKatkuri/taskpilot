@@ -1,12 +1,12 @@
 {
   "project": {
-    "project_id": "PRJ005",
-    "project_name": "AI Resume Screener",
+    "project_id": "PRJ014",
+    "project_name": "Smart Healthcare Assistant",
     "description": "NLP",
     "required_skills": [
       "5"
     ],
-    "deadline_days": "20",
+    "deadline_days": "39",
     "priority": "Low"
   },
   "tasks": [
@@ -72,12 +72,12 @@
     }
   ],
   "employeeAssignments": {
-    "TASK001": "EMP019",
-    "TASK002": "EMP017",
-    "TASK003": "EMP011",
-    "TASK004": "EMP018",
-    "TASK005": "EMP007",
-    "TASK006": "EMP016"
+    "TASK001": "EMP018",
+    "TASK002": "EMP016",
+    "TASK003": "EMP012",
+    "TASK004": "EMP007",
+    "TASK005": "EMP004",
+    "TASK006": "EMP014"
   },
   "toolAssignments": {
     "TASK001": [],

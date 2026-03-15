@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ007",
+    "project_name": "Insurance Risk Analyzer",
+    "description": "Data Science",
+    "required_skills": [
+      "3"
+    ],
+    "deadline_days": "49",
+    "priority": "Low"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Ingestion",
+      "description": "Design and implement data ingestion pipelines for insurance data",
+      "required_skills": [
+        "data engineering",
+        "data science"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "Data Preprocessing",
+      "description": "Develop data preprocessing techniques for handling missing values and data normalization",
+      "required_skills": [
+        "data science",
+        "python"
+      ],
+      "estimated_days": 5
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Risk Model Development",
+      "description": "Build and train machine learning models for insurance risk analysis",
+      "required_skills": [
+        "machine learning",
+        "data science"
+      ],
+      "estimated_days": 12
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Model Evaluation and Validation",
+      "description": "Evaluate and validate the performance of the developed risk models",
+      "required_skills": [
+        "data science",
+        "statistics"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Frontend Development",
+      "description": "Design and develop a user-friendly interface for the Insurance Risk Analyzer",
+      "required_skills": [
+        "frontend development",
+        "ui/ux"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Deployment and Testing",
+      "description": "Deploy the Insurance Risk Analyzer and perform thorough testing",
+      "required_skills": [
+        "devops",
+        "testing"
+      ],
+      "estimated_days": 8
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP010",
+    "TASK002": "EMP001",
+    "TASK003": "EMP009",
+    "TASK004": "EMP022",
+    "TASK005": "EMP005",
+    "TASK006": "EMP024"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}

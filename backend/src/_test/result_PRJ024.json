@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ024",
+    "project_name": "Retail Demand Predictor",
+    "description": "Data Science",
+    "required_skills": [
+      "9"
+    ],
+    "deadline_days": "31",
+    "priority": "Medium"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Collection",
+      "description": "Gather retail sales data from various sources",
+      "required_skills": [
+        "data mining",
+        "data warehousing"
+      ],
+      "estimated_days": 5
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "Data Preprocessing",
+      "description": "Clean and preprocess the collected data for analysis",
+      "required_skills": [
+        "data cleaning",
+        "data transformation"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Model Selection",
+      "description": "Choose a suitable machine learning model for demand prediction",
+      "required_skills": [
+        "machine learning",
+        "statistical modeling"
+      ],
+      "estimated_days": 3
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Model Training",
+      "description": "Train the selected model using the preprocessed data",
+      "required_skills": [
+        "machine learning",
+        "python"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Model Evaluation",
+      "description": "Evaluate the performance of the trained model",
+      "required_skills": [
+        "model evaluation",
+        "statistics"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Deployment",
+      "description": "Deploy the trained model in a production-ready environment",
+      "required_skills": [
+        "cloud computing",
+        "containerization"
+      ],
+      "estimated_days": 5
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP021",
+    "TASK002": "EMP001",
+    "TASK003": "EMP024",
+    "TASK004": "EMP009",
+    "TASK005": "EMP005",
+    "TASK006": "EMP022"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}

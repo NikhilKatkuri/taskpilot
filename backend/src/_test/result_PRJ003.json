@@ -15,35 +15,35 @@
     {
       "task_id": "TASK001",
       "task_name": "LLM Model Selection",
-      "description": "Select and fine-tune a suitable LLM model for customer support queries",
+      "description": "Choose a suitable LLM model for the chatbot",
       "required_skills": [
+        "llm"
+      ],
+      "estimated_days": 2
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "RAG Integration",
+      "description": "Integrate RAG for retrieving relevant information",
+      "required_skills": [
+        "rag",
         "llm"
       ],
       "estimated_days": 4
     },
     {
-      "task_id": "TASK002",
-      "task_name": "RAG Integration",
-      "description": "Integrate RAG for efficient information retrieval and response generation",
-      "required_skills": [
-        "rag",
-        "llm"
-      ],
-      "estimated_days": 5
-    },
-    {
       "task_id": "TASK003",
-      "task_name": "API Design and Development",
-      "description": "Design and develop APIs for chatbot integration with customer support systems",
+      "task_name": "API Design",
+      "description": "Design APIs for chatbot functionality and data exchange",
       "required_skills": [
         "api"
       ],
-      "estimated_days": 6
+      "estimated_days": 3
     },
     {
       "task_id": "TASK004",
       "task_name": "Chatbot Dialogue Flow",
-      "description": "Design and implement the chatbot's dialogue flow and conversation logic",
+      "description": "Implement the dialogue flow and intent recognition",
       "required_skills": [
         "llm",
         "rag"
@@ -52,11 +52,22 @@
     },
     {
       "task_id": "TASK005",
-      "task_name": "Chatbot Testing and Deployment",
-      "description": "Test the chatbot with various customer support scenarios and deploy it to production",
+      "task_name": "API Implementation",
+      "description": "Implement the designed APIs for the chatbot",
       "required_skills": [
         "api",
         "llm"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Chatbot Testing",
+      "description": "Test the chatbot for functionality and accuracy",
+      "required_skills": [
+        "llm",
+        "rag",
+        "api"
       ],
       "estimated_days": 5
     }
@@ -66,72 +77,15 @@
     "TASK002": "EMP005",
     "TASK003": "EMP020",
     "TASK004": "EMP023",
-    "TASK005": "EMP013"
+    "TASK005": "EMP013",
+    "TASK006": "EMP018"
   },
   "toolAssignments": {
-    "TASK001": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ],
-    "TASK002": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      },
-      {
-        "tool_id": "T002",
-        "tool_name": "Pinecone",
-        "tool_type": "Vector Database",
-        "purpose": "RAG and semantic search"
-      },
-      {
-        "tool_id": "T003",
-        "tool_name": "PostgreSQL",
-        "tool_type": "Database",
-        "purpose": "Structured relational data storage"
-      }
-    ],
-    "TASK003": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ],
-    "TASK004": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      },
-      {
-        "tool_id": "T002",
-        "tool_name": "Pinecone",
-        "tool_type": "Vector Database",
-        "purpose": "RAG and semantic search"
-      },
-      {
-        "tool_id": "T003",
-        "tool_name": "PostgreSQL",
-        "tool_type": "Database",
-        "purpose": "Structured relational data storage"
-      }
-    ],
-    "TASK005": [
-      {
-        "tool_id": "T001",
-        "tool_name": "OpenAI API",
-        "tool_type": "LLM API",
-        "purpose": "Natural language reasoning and generation"
-      }
-    ]
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
   }
 }

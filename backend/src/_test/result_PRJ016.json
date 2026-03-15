@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ016",
+    "project_name": "AI Resume Screener",
+    "description": "Automation",
+    "required_skills": [
+      "5"
+    ],
+    "deadline_days": "59",
+    "priority": "Medium"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Collection",
+      "description": "Gather and preprocess e-commerce product data for training the recommendation AI",
+      "required_skills": [
+        "data engineering",
+        "nlp"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "NLP Model Development",
+      "description": "Develop and train NLP models for product description analysis and customer review sentiment analysis",
+      "required_skills": [
+        "nlp",
+        "deep learning"
+      ],
+      "estimated_days": 12
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Recommendation Algorithm Design",
+      "description": "Design and implement a recommendation algorithm that incorporates NLP insights and customer behavior",
+      "required_skills": [
+        "recommendation systems",
+        "nlp"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "API Integration",
+      "description": "Integrate the recommendation AI with the e-commerce platform's API for seamless product suggestions",
+      "required_skills": [
+        "api",
+        "backend development"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Frontend Implementation",
+      "description": "Implement the recommendation AI-powered product suggestions on the e-commerce platform's frontend",
+      "required_skills": [
+        "frontend development",
+        "ui/ux"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Testing and Deployment",
+      "description": "Test the recommendation AI and deploy it to the production environment",
+      "required_skills": [
+        "testing",
+        "devops"
+      ],
+      "estimated_days": 4
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP009",
+    "TASK002": "EMP005",
+    "TASK003": "EMP022",
+    "TASK004": "EMP003",
+    "TASK005": "EMP020",
+    "TASK006": "EMP023"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}

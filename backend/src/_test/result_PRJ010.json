@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ010",
+    "project_name": "Voice Assistant Platform",
+    "description": "ML Platform",
+    "required_skills": [
+      "5"
+    ],
+    "deadline_days": "50",
+    "priority": "High"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "NLP Model Development",
+      "description": "Develop and train NLP models for voice recognition and intent identification",
+      "required_skills": [
+        "nlp",
+        "machine learning"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "Speech-to-Text Integration",
+      "description": "Integrate speech-to-text APIs for voice input processing",
+      "required_skills": [
+        "api",
+        "speech recognition"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Text-to-Speech Implementation",
+      "description": "Implement text-to-speech functionality for voice output",
+      "required_skills": [
+        "text-to-speech",
+        "audio processing"
+      ],
+      "estimated_days": 5
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Dialogue Management System",
+      "description": "Design and develop a dialogue management system for conversational flow",
+      "required_skills": [
+        "nlp",
+        "conversational ai"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Backend Infrastructure Setup",
+      "description": "Set up the backend infrastructure for the voice assistant platform",
+      "required_skills": [
+        "backend development",
+        "cloud computing"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Frontend Interface Development",
+      "description": "Develop a user-friendly frontend interface for the voice assistant platform",
+      "required_skills": [
+        "frontend development",
+        "ui/ux design"
+      ],
+      "estimated_days": 7
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP012",
+    "TASK002": "EMP007",
+    "TASK003": "EMP004",
+    "TASK004": "EMP014",
+    "TASK005": "EMP015",
+    "TASK006": "EMP002"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}
