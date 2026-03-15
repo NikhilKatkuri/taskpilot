@@ -1,0 +1,76 @@
+{
+  "project": {
+    "project_id": "PRJ005",
+    "project_name": "AI Resume Screener",
+    "description": "Automated resume parsing and screening system",
+    "required_skills": [
+      "NLP"
+    ],
+    "deadline_days": "5",
+    "priority": "20"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "NLP Model Selection",
+      "description": "Choose a suitable NLP model for resume parsing",
+      "required_skills": [
+        "nlp"
+      ],
+      "estimated_days": 1
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "Resume Data Preprocessing",
+      "description": "Develop a data preprocessing pipeline for resume data",
+      "required_skills": [
+        "nlp",
+        "data preprocessing"
+      ],
+      "estimated_days": 1
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Screening Criteria Development",
+      "description": "Define and implement screening criteria using NLP",
+      "required_skills": [
+        "nlp"
+      ],
+      "estimated_days": 1
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "System Integration",
+      "description": "Integrate the NLP model and screening criteria into a single system",
+      "required_skills": [
+        "nlp",
+        "software development"
+      ],
+      "estimated_days": 1
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Testing and Validation",
+      "description": "Test and validate the AI resume screener system",
+      "required_skills": [
+        "nlp",
+        "testing"
+      ],
+      "estimated_days": 1
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP010",
+    "TASK002": "EMP019",
+    "TASK003": "EMP017",
+    "TASK004": "EMP011",
+    "TASK005": "EMP018"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": []
+  }
+}

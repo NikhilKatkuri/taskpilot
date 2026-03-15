@@ -1,0 +1,657 @@
+[
+  {
+    "fileName": "employees",
+    "content": [
+      {
+        "employee_id": "EMP001",
+        "name": "Aarav Sharma",
+        "role": "AI Engineer",
+        "skills": [
+          "Python",
+          "LLMs",
+          "LangChain",
+          "ML"
+        ],
+        "experience_years": "4",
+        "current_workload_percent": "40"
+      },
+      {
+        "employee_id": "EMP002",
+        "name": "Riya Patel",
+        "role": "Data Scientist",
+        "skills": [
+          "Python",
+          "Data Analysis",
+          "ML",
+          "Pandas"
+        ],
+        "experience_years": "3",
+        "current_workload_percent": "35"
+      },
+      {
+        "employee_id": "EMP003",
+        "name": "Vikram Singh",
+        "role": "Backend Developer",
+        "skills": [
+          "Node.js",
+          "APIs",
+          "Databases"
+        ],
+        "experience_years": "5",
+        "current_workload_percent": "50"
+      },
+      {
+        "employee_id": "EMP004",
+        "name": "Sneha Reddy",
+        "role": "Frontend Developer",
+        "skills": [
+          "React",
+          "UI/UX",
+          "JavaScript"
+        ],
+        "experience_years": "2",
+        "current_workload_percent": "30"
+      },
+      {
+        "employee_id": "EMP005",
+        "name": "Karthik Rao",
+        "role": "DevOps Engineer",
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "AWS",
+          "CI/CD"
+        ],
+        "experience_years": "4",
+        "current_workload_percent": "45"
+      },
+      {
+        "employee_id": "EMP006",
+        "name": "Meera Nair",
+        "role": "AI Researcher",
+        "skills": [
+          "LLMs",
+          "NLP",
+          "RAG",
+          "Deep Learning"
+        ],
+        "experience_years": "6",
+        "current_workload_percent": "55"
+      },
+      {
+        "employee_id": "EMP007",
+        "name": "Divya Pillai",
+        "role": "AI Engineer",
+        "skills": [
+          "LangChain"
+        ],
+        "experience_years": "8",
+        "current_workload_percent": "30"
+      },
+      {
+        "employee_id": "EMP008",
+        "name": "Rohan Das",
+        "role": "MLOps Engineer",
+        "skills": [
+          "Python"
+        ],
+        "experience_years": "7",
+        "current_workload_percent": "65"
+      },
+      {
+        "employee_id": "EMP009",
+        "name": "Rahul Verma",
+        "role": "AI Engineer",
+        "skills": [
+          "PyTorch"
+        ],
+        "experience_years": "6",
+        "current_workload_percent": "44"
+      },
+      {
+        "employee_id": "EMP010",
+        "name": "Manish Gupta",
+        "role": "AI Engineer",
+        "skills": [
+          "Node.js"
+        ],
+        "experience_years": "1",
+        "current_workload_percent": "37"
+      },
+      {
+        "employee_id": "EMP011",
+        "name": "Manish Gupta",
+        "role": "Backend Developer",
+        "skills": [
+          "LangChain"
+        ],
+        "experience_years": "6",
+        "current_workload_percent": "21"
+      },
+      {
+        "employee_id": "EMP012",
+        "name": "Ishita Banerjee",
+        "role": "ML Engineer",
+        "skills": [
+          "SQL"
+        ],
+        "experience_years": "1",
+        "current_workload_percent": "24"
+      },
+      {
+        "employee_id": "EMP013",
+        "name": "Manish Gupta",
+        "role": "MLOps Engineer",
+        "skills": [
+          "PyTorch"
+        ],
+        "experience_years": "3",
+        "current_workload_percent": "59"
+      },
+      {
+        "employee_id": "EMP014",
+        "name": "Neha Kapoor",
+        "role": "Data Scientist",
+        "skills": [
+          "TensorFlow"
+        ],
+        "experience_years": "8",
+        "current_workload_percent": "31"
+      },
+      {
+        "employee_id": "EMP015",
+        "name": "Sonal Mishra",
+        "role": "ML Engineer",
+        "skills": [
+          "Node.js"
+        ],
+        "experience_years": "2",
+        "current_workload_percent": "32"
+      },
+      {
+        "employee_id": "EMP016",
+        "name": "Varun Khanna",
+        "role": "Data Scientist",
+        "skills": [
+          "Python"
+        ],
+        "experience_years": "2",
+        "current_workload_percent": "24"
+      },
+      {
+        "employee_id": "EMP017",
+        "name": "Harsh Vardhan",
+        "role": "AI Engineer",
+        "skills": [
+          "LangChain"
+        ],
+        "experience_years": "6",
+        "current_workload_percent": "20"
+      },
+      {
+        "employee_id": "EMP018",
+        "name": "Aditya Kulkarni",
+        "role": "MLOps Engineer",
+        "skills": [
+          "PyTorch"
+        ],
+        "experience_years": "2",
+        "current_workload_percent": "22"
+      },
+      {
+        "employee_id": "EMP019",
+        "name": "Amit Chatterjee",
+        "role": "MLOps Engineer",
+        "skills": [
+          "LangChain"
+        ],
+        "experience_years": "1",
+        "current_workload_percent": "58"
+      },
+      {
+        "employee_id": "EMP020",
+        "name": "Kavya Sharma",
+        "role": "Backend Developer",
+        "skills": [
+          "LangChain"
+        ],
+        "experience_years": "4",
+        "current_workload_percent": "50"
+      },
+      {
+        "employee_id": "EMP021",
+        "name": "Harsh Vardhan",
+        "role": "Data Scientist",
+        "skills": [
+          "TensorFlow"
+        ],
+        "experience_years": "8",
+        "current_workload_percent": "40"
+      },
+      {
+        "employee_id": "EMP022",
+        "name": "Neha Kapoor",
+        "role": "ML Engineer",
+        "skills": [
+          "Node.js"
+        ],
+        "experience_years": "8",
+        "current_workload_percent": "47"
+      },
+      {
+        "employee_id": "EMP023",
+        "name": "Harsh Vardhan",
+        "role": "MLOps Engineer",
+        "skills": [
+          "PyTorch"
+        ],
+        "experience_years": "4",
+        "current_workload_percent": "51"
+      },
+      {
+        "employee_id": "EMP024",
+        "name": "Harsh Vardhan",
+        "role": "Data Scientist",
+        "skills": [
+          "Node.js"
+        ],
+        "experience_years": "2",
+        "current_workload_percent": "43"
+      },
+      {
+        "employee_id": "EMP025",
+        "name": "Aditya Kulkarni",
+        "role": "ML Engineer",
+        "skills": [
+          "Node.js"
+        ],
+        "experience_years": "6",
+        "current_workload_percent": "57"
+      }
+    ]
+  },
+  {
+    "fileName": "projects",
+    "content": [
+      {
+        "project_id": "PRJ001",
+        "project_name": "AI Sales Assistant",
+        "description": "AI assistant that generates sales proposals automatically",
+        "required_skills": [
+          "LLM",
+          "NLP",
+          "APIs"
+        ],
+        "deadline_days": "30",
+        "priority": "High"
+      },
+      {
+        "project_id": "PRJ002",
+        "project_name": "Healthcare Diagnosis Model",
+        "description": "Predict early disease risk using ML models",
+        "required_skills": [
+          "ML",
+          "Data Analysis",
+          "Python"
+        ],
+        "deadline_days": "45",
+        "priority": "High"
+      },
+      {
+        "project_id": "PRJ003",
+        "project_name": "Customer Support Chatbot",
+        "description": "AI chatbot for customer support queries",
+        "required_skills": [
+          "LLM",
+          "RAG",
+          "APIs"
+        ],
+        "deadline_days": "25",
+        "priority": "Medium"
+      },
+      {
+        "project_id": "PRJ004",
+        "project_name": "Smart Inventory System",
+        "description": "Automated inventory demand prediction system",
+        "required_skills": [
+          "Python",
+          "ML",
+          "Data Engineering"
+        ],
+        "deadline_days": "40",
+        "priority": "Medium"
+      },
+      {
+        "project_id": "PRJ005",
+        "project_name": "AI Resume Screener",
+        "description": "Automated resume parsing and screening system",
+        "required_skills": [
+          "NLP"
+        ],
+        "deadline_days": "5",
+        "priority": "20"
+      }
+    ]
+  },
+  {
+    "fileName": "project history",
+    "content": [
+      {
+        "history_id": "H001",
+        "project_id": "PRJ010",
+        "project_name": "Fraud Detection AI",
+        "team_size": "4",
+        "tools_used": [
+          "Python",
+          "Scikit-learn",
+          "PostgreSQL"
+        ],
+        "completion_days": "28",
+        "success_score": "0.92"
+      },
+      {
+        "history_id": "H002",
+        "project_id": "PRJ011",
+        "project_name": "AI Resume Screening",
+        "team_size": "3",
+        "tools_used": [
+          "Python",
+          "NLP",
+          "FastAPI"
+        ],
+        "completion_days": "22",
+        "success_score": "0.89"
+      },
+      {
+        "history_id": "H003",
+        "project_id": "PRJ012",
+        "project_name": "Retail Recommendation Engine",
+        "team_size": "5",
+        "tools_used": [
+          "TensorFlow",
+          "Python",
+          "Redis"
+        ],
+        "completion_days": "35",
+        "success_score": "0.94"
+      },
+      {
+        "history_id": "H004",
+        "project_id": "PRJ020",
+        "project_name": "Computer Vision",
+        "team_size": "4",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "48",
+        "success_score": "0.91"
+      },
+      {
+        "history_id": "H005",
+        "project_id": "PRJ022",
+        "project_name": "Computer Vision",
+        "team_size": "7",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "45",
+        "success_score": "0.94"
+      },
+      {
+        "history_id": "H006",
+        "project_id": "PRJ019",
+        "project_name": "ML Platform",
+        "team_size": "8",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "27",
+        "success_score": "0.91"
+      },
+      {
+        "history_id": "H007",
+        "project_id": "PRJ009",
+        "project_name": "ML Platform",
+        "team_size": "3",
+        "tools_used": [
+          "High"
+        ],
+        "completion_days": "44",
+        "success_score": "0.87"
+      },
+      {
+        "history_id": "H008",
+        "project_id": "PRJ022",
+        "project_name": "Computer Vision",
+        "team_size": "4",
+        "tools_used": [
+          "High"
+        ],
+        "completion_days": "49",
+        "success_score": "0.96"
+      },
+      {
+        "history_id": "H009",
+        "project_id": "PRJ013",
+        "project_name": "Data Science",
+        "team_size": "4",
+        "tools_used": [
+          "High"
+        ],
+        "completion_days": "39",
+        "success_score": "0.85"
+      },
+      {
+        "history_id": "H010",
+        "project_id": "PRJ002",
+        "project_name": "Computer Vision",
+        "team_size": "3",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "50",
+        "success_score": "0.92"
+      },
+      {
+        "history_id": "H011",
+        "project_id": "PRJ010",
+        "project_name": "Computer Vision",
+        "team_size": "4",
+        "tools_used": [
+          "High"
+        ],
+        "completion_days": "18",
+        "success_score": "0.86"
+      },
+      {
+        "history_id": "H012",
+        "project_id": "PRJ011",
+        "project_name": "NLP",
+        "team_size": "8",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "31",
+        "success_score": "0.88"
+      },
+      {
+        "history_id": "H013",
+        "project_id": "PRJ008",
+        "project_name": "Computer Vision",
+        "team_size": "8",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "43",
+        "success_score": "0.95"
+      },
+      {
+        "history_id": "H014",
+        "project_id": "PRJ020",
+        "project_name": "ML Platform",
+        "team_size": "6",
+        "tools_used": [
+          "High"
+        ],
+        "completion_days": "42",
+        "success_score": "0.85"
+      },
+      {
+        "history_id": "H015",
+        "project_id": "PRJ006",
+        "project_name": "ML Platform",
+        "team_size": "8",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "43",
+        "success_score": "0.94"
+      },
+      {
+        "history_id": "H016",
+        "project_id": "PRJ013",
+        "project_name": "Data Science",
+        "team_size": "8",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "18",
+        "success_score": "0.95"
+      },
+      {
+        "history_id": "H017",
+        "project_id": "PRJ005",
+        "project_name": "ML Platform",
+        "team_size": "7",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "48",
+        "success_score": "0.95"
+      },
+      {
+        "history_id": "H018",
+        "project_id": "PRJ023",
+        "project_name": "Automation",
+        "team_size": "3",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "27",
+        "success_score": "0.92"
+      },
+      {
+        "history_id": "H019",
+        "project_id": "PRJ005",
+        "project_name": "NLP",
+        "team_size": "2",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "25",
+        "success_score": "0.86"
+      },
+      {
+        "history_id": "H020",
+        "project_id": "PRJ021",
+        "project_name": "Computer Vision",
+        "team_size": "6",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "46",
+        "success_score": "0.84"
+      },
+      {
+        "history_id": "H021",
+        "project_id": "PRJ016",
+        "project_name": "ML Platform",
+        "team_size": "2",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "29",
+        "success_score": "0.93"
+      },
+      {
+        "history_id": "H022",
+        "project_id": "PRJ007",
+        "project_name": "Automation",
+        "team_size": "8",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "32",
+        "success_score": "0.93"
+      },
+      {
+        "history_id": "H023",
+        "project_id": "PRJ022",
+        "project_name": "Data Science",
+        "team_size": "2",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "37",
+        "success_score": "0.8"
+      },
+      {
+        "history_id": "H024",
+        "project_id": "PRJ002",
+        "project_name": "Data Science",
+        "team_size": "5",
+        "tools_used": [
+          "Low"
+        ],
+        "completion_days": "32",
+        "success_score": "0.87"
+      },
+      {
+        "history_id": "H025",
+        "project_id": "PRJ015",
+        "project_name": "Computer Vision",
+        "team_size": "6",
+        "tools_used": [
+          "Medium"
+        ],
+        "completion_days": "28",
+        "success_score": "0.94"
+      }
+    ]
+  },
+  {
+    "fileName": "tools",
+    "content": [
+      {
+        "tool_id": "T001",
+        "tool_name": "OpenAI API",
+        "tool_type": "LLM API",
+        "purpose": "Natural language reasoning and generation"
+      },
+      {
+        "tool_id": "T002",
+        "tool_name": "Pinecone",
+        "tool_type": "Vector Database",
+        "purpose": "RAG and semantic search"
+      },
+      {
+        "tool_id": "T003",
+        "tool_name": "PostgreSQL",
+        "tool_type": "Database",
+        "purpose": "Structured relational data storage"
+      },
+      {
+        "tool_id": "T004",
+        "tool_name": "Google Search API",
+        "tool_type": "Search Engine",
+        "purpose": "External information retrieval"
+      },
+      {
+        "tool_id": "T005",
+        "tool_name": "LangChain",
+        "tool_type": "AI Framework",
+        "purpose": "Agent orchestration and tool integration"
+      }
+    ]
+  }
+]

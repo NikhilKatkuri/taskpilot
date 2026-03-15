@@ -1,0 +1,90 @@
+{
+  "project": {
+    "project_id": "PRJ002",
+    "project_name": "Healthcare Diagnosis Model",
+    "description": "Predict early disease risk using ML models",
+    "required_skills": [
+      "ML",
+      "Data Analysis",
+      "Python"
+    ],
+    "deadline_days": "45",
+    "priority": "High"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "Data Collection",
+      "description": "Gather and preprocess healthcare data for model training",
+      "required_skills": [
+        "data analysis",
+        "python"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "ML Model Selection",
+      "description": "Choose suitable ML algorithms for disease risk prediction",
+      "required_skills": [
+        "machine learning"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "Model Training",
+      "description": "Train ML models using collected healthcare data",
+      "required_skills": [
+        "machine learning",
+        "python"
+      ],
+      "estimated_days": 10
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "Model Evaluation",
+      "description": "Evaluate performance of trained ML models",
+      "required_skills": [
+        "machine learning",
+        "data analysis"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Model Deployment",
+      "description": "Deploy trained ML model in a production-ready environment",
+      "required_skills": [
+        "python"
+      ],
+      "estimated_days": 7
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Testing and Validation",
+      "description": "Test and validate deployed model with sample data",
+      "required_skills": [
+        "data analysis",
+        "python"
+      ],
+      "estimated_days": 5
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP008",
+    "TASK002": "EMP001",
+    "TASK003": "EMP002",
+    "TASK004": "EMP017",
+    "TASK005": "EMP011",
+    "TASK006": "EMP009"
+  },
+  "toolAssignments": {
+    "TASK001": [],
+    "TASK002": [],
+    "TASK003": [],
+    "TASK004": [],
+    "TASK005": [],
+    "TASK006": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "project": {
+    "project_id": "PRJ001",
+    "project_name": "AI Sales Assistant",
+    "description": "AI assistant that generates sales proposals automatically",
+    "required_skills": [
+      "LLM",
+      "NLP",
+      "APIs"
+    ],
+    "deadline_days": "30",
+    "priority": "High"
+  },
+  "tasks": [
+    {
+      "task_id": "TASK001",
+      "task_name": "LLM Model Selection",
+      "description": "Select and integrate a suitable LLM model for generating sales proposals",
+      "required_skills": [
+        "llm",
+        "nlp"
+      ],
+      "estimated_days": 4
+    },
+    {
+      "task_id": "TASK002",
+      "task_name": "API Design",
+      "description": "Design a RESTful API for interacting with the LLM model and retrieving generated proposals",
+      "required_skills": [
+        "api"
+      ],
+      "estimated_days": 3
+    },
+    {
+      "task_id": "TASK003",
+      "task_name": "NLP Data Preprocessing",
+      "description": "Develop a data preprocessing pipeline to handle sales data and fine-tune the LLM model",
+      "required_skills": [
+        "nlp"
+      ],
+      "estimated_days": 5
+    },
+    {
+      "task_id": "TASK004",
+      "task_name": "API Implementation",
+      "description": "Implement the designed API and integrate it with the LLM model and data preprocessing pipeline",
+      "required_skills": [
+        "api",
+        "llm"
+      ],
+      "estimated_days": 6
+    },
+    {
+      "task_id": "TASK005",
+      "task_name": "Frontend Development",
+      "description": "Develop a user-friendly frontend to interact with the API and display generated sales proposals",
+      "required_skills": [
+        "frontend"
+      ],
+      "estimated_days": 8
+    },
+    {
+      "task_id": "TASK006",
+      "task_name": "Testing and Deployment",
+      "description": "Test the entire system and deploy it to a production environment",
+      "required_skills": [
+        "api",
+        "llm",
+        "nlp"
+      ],
+      "estimated_days": 4
+    }
+  ],
+  "employeeAssignments": {
+    "TASK001": "EMP006",
+    "TASK002": "EMP007",
+    "TASK003": "EMP014",
+    "TASK004": "EMP021",
+    "TASK005": "EMP022",
+    "TASK006": "EMP003"
+  },
+  "toolAssignments": {
+    "TASK001": [
+      {
+        "tool_id": "T001",
+        "tool_name": "OpenAI API",
+        "tool_type": "LLM API",
+        "purpose": "Natural language reasoning and generation"
+      }
+    ],
+    "TASK002": [
+      {
+        "tool_id": "T001",
+        "tool_name": "OpenAI API",
+        "tool_type": "LLM API",
+        "purpose": "Natural language reasoning and generation"
+      }
+    ],
+    "TASK003": [],
+    "TASK004": [
+      {
+        "tool_id": "T001",
+        "tool_name": "OpenAI API",
+        "tool_type": "LLM API",
+        "purpose": "Natural language reasoning and generation"
+      }
+    ],
+    "TASK005": [],
+    "TASK006": [
+      {
+        "tool_id": "T001",
+        "tool_name": "OpenAI API",
+        "tool_type": "LLM API",
+        "purpose": "Natural language reasoning and generation"
+      }
+    ]
+  }
+}

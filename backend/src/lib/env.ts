@@ -10,7 +10,7 @@ class EnvVarError extends Error {
 }
 
 const loadEnv = (key: string): string => {
-  const _key = `COGNISHOP_APP_${key}`;
+  const _key = `TASKMINDS_APP_${key}`;
   const value = process.env[_key];
 
   if (!value) {
@@ -25,7 +25,7 @@ const parseNumber = (key: string): number => {
   const num = Number(value);
 
   if (Number.isNaN(num)) {
-    throw new EnvVarError(`COGNISHOP_APP_${key}`, 'Must be a valid number');
+    throw new EnvVarError(`TASKMINDS_APP_${key}`, 'Must be a valid number');
   }
 
   return num;
@@ -36,7 +36,7 @@ const parseEnum = <T extends string>(key: string, allowed: readonly T[]): T => {
 
   if (!allowed.includes(value as T)) {
     throw new EnvVarError(
-      `COGNISHOP_APP_${key}`,
+      `TASKMINDS_APP_${key}`,
       `Must be one of: ${allowed.join(', ')}`
     );
   }
