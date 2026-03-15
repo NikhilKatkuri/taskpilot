@@ -269,7 +269,7 @@ export default function Chat() {
                     TaskMinds
                   </h1>
                 </div>
-                <div className="w-full max-w-[700px] mt-2 relative">
+                <div className="w-full max-w-175 mt-2 relative">
                   {loading && socketMsg && (
                     <div className="absolute -top-10 left-0 right-0 flex justify-center animate-fade-in">
                       <div className="flex items-center gap-2 rounded-full bg-blue-50 dark:bg-blue-500/10 px-4 py-1.5 text-xs font-semibold text-blue-600 dark:text-blue-400">
@@ -310,7 +310,7 @@ export default function Chat() {
                     ))}
                   </div>
                 </div>
-                <div className="mx-auto w-full max-w-[700px] px-4 md:px-0 relative">
+                <div className="mx-auto w-full max-w-175 px-4 md:px-0 relative">
                   {loading && socketMsg && (
                     <div className="absolute -top-10 left-0 right-0 flex justify-center animate-fade-in">
                       <div className="flex items-center gap-2 rounded-full bg-blue-50 dark:bg-blue-500/10 px-4 py-1.5 text-xs font-semibold text-blue-600 dark:text-blue-400">

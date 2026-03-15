@@ -1,4 +1,301 @@
 history_id,project_id,project_name,team_size,tools_used,completion_days,success_score
-H001,PRJ010,Fraud Detection AI,4,Python;Scikit-learn;PostgreSQL,28,0.92
-H002,PRJ011,AI Resume Screening,3,Python;NLP;FastAPI,22,0.89
-H003,PRJ012,Retail Recommendation Engine,5,TensorFlow;Python;Redis,35,0.94
+HIS0001,PRJ0102,Healthcare Diagnosis AI,8,LangChain;FastAPI,40,0.79
+HIS0002,PRJ0033,Autonomous AI Research Agent,8,Redis;Python;PostgreSQL;TensorFlow,32,0.8
+HIS0003,PRJ0112,Document Summarization AI,5,Redis;Python;FastAPI,47,0.97
+HIS0004,PRJ0051,AI Sales Assistant,8,TensorFlow;PostgreSQL;LangChain,34,0.81
+HIS0005,PRJ0179,Customer Support Chatbot,5,Redis;TensorFlow;FastAPI;Python,20,0.81
+HIS0006,PRJ0165,Smart Inventory Prediction,8,Python;TensorFlow;Redis;PostgreSQL,37,0.81
+HIS0007,PRJ0102,Autonomous AI Research Agent,7,FastAPI;Redis,53,0.9
+HIS0008,PRJ0137,Autonomous AI Research Agent,5,LangChain;Python,45,0.89
+HIS0009,PRJ0017,Autonomous AI Research Agent,4,PostgreSQL;Redis,51,0.96
+HIS0010,PRJ0093,Smart Inventory Prediction,7,PostgreSQL;FastAPI;LangChain,33,0.86
+HIS0011,PRJ0069,Healthcare Diagnosis AI,5,FastAPI;Redis,34,0.95
+HIS0012,PRJ0057,Healthcare Diagnosis AI,5,LangChain;TensorFlow,18,0.78
+HIS0013,PRJ0004,Smart Inventory Prediction,6,Redis;PostgreSQL;FastAPI,54,0.92
+HIS0014,PRJ0135,Document Summarization AI,6,Python;FastAPI;PostgreSQL;TensorFlow,28,0.96
+HIS0015,PRJ0119,Autonomous AI Research Agent,5,FastAPI;LangChain,29,0.91
+HIS0016,PRJ0085,Smart Inventory Prediction,3,PostgreSQL;Python,27,0.82
+HIS0017,PRJ0101,Healthcare Diagnosis AI,6,LangChain;Redis;Python,57,0.9
+HIS0018,PRJ0130,AI Sales Assistant,6,PostgreSQL;LangChain;FastAPI;Python,37,0.83
+HIS0019,PRJ0124,Customer Support Chatbot,3,LangChain;Python;Redis;FastAPI,28,0.82
+HIS0020,PRJ0026,Document Summarization AI,8,Python;TensorFlow;FastAPI;PostgreSQL,34,0.79
+HIS0021,PRJ0058,AI Sales Assistant,3,LangChain;Python;Redis,57,0.76
+HIS0022,PRJ0125,Document Summarization AI,8,FastAPI;Redis,23,0.82
+HIS0023,PRJ0187,Autonomous AI Research Agent,3,Redis;Python;TensorFlow;PostgreSQL,53,0.87
+HIS0024,PRJ0027,Customer Support Chatbot,7,TensorFlow;Redis;FastAPI;PostgreSQL,39,0.79
+HIS0025,PRJ0073,Healthcare Diagnosis AI,6,FastAPI;Redis;TensorFlow;Python,53,0.91
+HIS0026,PRJ0129,Document Summarization AI,7,PostgreSQL;LangChain,32,0.96
+HIS0027,PRJ0107,Autonomous AI Research Agent,7,LangChain;Redis;PostgreSQL,47,0.79
+HIS0028,PRJ0091,AI Sales Assistant,6,PostgreSQL;Python,34,0.84
+HIS0029,PRJ0058,Fraud Detection System,4,Redis;Python;PostgreSQL,16,0.95
+HIS0030,PRJ0050,AI Sales Assistant,8,Redis;Python;PostgreSQL,30,0.87
+HIS0031,PRJ0146,Autonomous AI Research Agent,3,PostgreSQL;Redis,53,0.95
+HIS0032,PRJ0030,Autonomous AI Research Agent,8,PostgreSQL;Python;FastAPI,48,0.91
+HIS0033,PRJ0076,AI Sales Assistant,3,Python;Redis;TensorFlow,43,0.85
+HIS0034,PRJ0132,Customer Support Chatbot,6,PostgreSQL;FastAPI,49,0.87
+HIS0035,PRJ0199,Healthcare Diagnosis AI,5,Python;Redis;FastAPI,44,0.97
+HIS0036,PRJ0047,AI Sales Assistant,8,Python;PostgreSQL,55,0.81
+HIS0037,PRJ0074,Healthcare Diagnosis AI,4,FastAPI;PostgreSQL;LangChain,32,0.78
+HIS0038,PRJ0034,AI Sales Assistant,5,Python;PostgreSQL,24,0.9
+HIS0039,PRJ0030,Healthcare Diagnosis AI,5,FastAPI;Python,36,0.79
+HIS0040,PRJ0085,Smart Inventory Prediction,3,LangChain;PostgreSQL,23,0.96
+HIS0041,PRJ0073,Fraud Detection System,6,TensorFlow;Python;FastAPI;PostgreSQL,40,0.85
+HIS0042,PRJ0198,Customer Support Chatbot,3,TensorFlow;FastAPI;Redis;Python,23,0.93
+HIS0043,PRJ0175,Smart Inventory Prediction,6,TensorFlow;LangChain,42,0.81
+HIS0044,PRJ0114,AI Sales Assistant,4,PostgreSQL;Python;LangChain;Redis,51,0.91
+HIS0045,PRJ0020,Autonomous AI Research Agent,6,LangChain;Redis,49,0.98
+HIS0046,PRJ0044,Healthcare Diagnosis AI,4,Python;TensorFlow,22,0.8
+HIS0047,PRJ0090,AI Sales Assistant,4,FastAPI;TensorFlow;Python,47,0.84
+HIS0048,PRJ0049,AI Sales Assistant,8,PostgreSQL;TensorFlow;Python;LangChain,19,0.76
+HIS0049,PRJ0007,AI Sales Assistant,5,PostgreSQL;FastAPI;Python;LangChain,20,0.76
+HIS0050,PRJ0034,Fraud Detection System,5,FastAPI;PostgreSQL;Redis;LangChain,36,0.91
+HIS0051,PRJ0150,Document Summarization AI,3,FastAPI;Redis;LangChain,38,0.76
+HIS0052,PRJ0114,Healthcare Diagnosis AI,8,Redis;PostgreSQL;LangChain,43,0.91
+HIS0053,PRJ0133,AI Sales Assistant,8,Python;FastAPI;PostgreSQL;LangChain,60,0.79
+HIS0054,PRJ0170,Customer Support Chatbot,5,PostgreSQL;LangChain;TensorFlow,47,0.87
+HIS0055,PRJ0110,Autonomous AI Research Agent,6,FastAPI;TensorFlow;PostgreSQL;LangChain,36,0.77
+HIS0056,PRJ0084,Smart Inventory Prediction,4,PostgreSQL;Redis;FastAPI,24,0.86
+HIS0057,PRJ0044,Customer Support Chatbot,6,Python;Redis,37,0.77
+HIS0058,PRJ0097,Healthcare Diagnosis AI,5,TensorFlow;FastAPI;LangChain,16,0.82
+HIS0059,PRJ0061,AI Sales Assistant,3,FastAPI;Python,47,0.91
+HIS0060,PRJ0190,Healthcare Diagnosis AI,3,LangChain;FastAPI;PostgreSQL;Python,41,0.89
+HIS0061,PRJ0045,AI Sales Assistant,7,TensorFlow;Redis,51,0.95
+HIS0062,PRJ0140,Autonomous AI Research Agent,6,FastAPI;Redis;Python,54,0.78
+HIS0063,PRJ0182,Healthcare Diagnosis AI,3,FastAPI;Python;LangChain,15,0.81
+HIS0064,PRJ0023,Customer Support Chatbot,8,Redis;PostgreSQL;TensorFlow;FastAPI,37,0.96
+HIS0065,PRJ0020,Healthcare Diagnosis AI,5,Redis;Python;TensorFlow,57,0.88
+HIS0066,PRJ0119,Document Summarization AI,7,TensorFlow;PostgreSQL,55,0.86
+HIS0067,PRJ0017,Customer Support Chatbot,5,FastAPI;PostgreSQL,21,0.8
+HIS0068,PRJ0184,Autonomous AI Research Agent,4,PostgreSQL;Redis,37,0.93
+HIS0069,PRJ0126,Customer Support Chatbot,8,TensorFlow;PostgreSQL,57,0.89
+HIS0070,PRJ0045,Customer Support Chatbot,7,FastAPI;Redis,19,0.98
+HIS0071,PRJ0125,AI Sales Assistant,3,PostgreSQL;Python;TensorFlow,30,0.9
+HIS0072,PRJ0051,Smart Inventory Prediction,7,FastAPI;TensorFlow;LangChain,16,0.96
+HIS0073,PRJ0019,Autonomous AI Research Agent,4,Redis;Python;PostgreSQL;FastAPI,44,0.85
+HIS0074,PRJ0122,Fraud Detection System,6,FastAPI;Python;PostgreSQL,19,0.96
+HIS0075,PRJ0148,Fraud Detection System,3,FastAPI;Redis;LangChain;Python,42,0.88
+HIS0076,PRJ0057,Smart Inventory Prediction,3,PostgreSQL;LangChain;Python,16,0.93
+HIS0077,PRJ0146,Healthcare Diagnosis AI,3,Redis;Python;TensorFlow,53,0.89
+HIS0078,PRJ0016,Document Summarization AI,4,Python;Redis;PostgreSQL;LangChain,38,0.93
+HIS0079,PRJ0176,Autonomous AI Research Agent,4,Redis;FastAPI;PostgreSQL;LangChain,32,0.86
+HIS0080,PRJ0194,AI Sales Assistant,6,FastAPI;Redis;PostgreSQL,25,0.78
+HIS0081,PRJ0151,Smart Inventory Prediction,3,FastAPI;LangChain;Python;PostgreSQL,27,0.89
+HIS0082,PRJ0172,Healthcare Diagnosis AI,3,Python;LangChain;PostgreSQL;FastAPI,18,0.77
+HIS0083,PRJ0091,Autonomous AI Research Agent,3,TensorFlow;PostgreSQL;FastAPI;Python,57,0.91
+HIS0084,PRJ0179,Fraud Detection System,7,Redis;TensorFlow,60,0.86
+HIS0085,PRJ0093,Smart Inventory Prediction,5,LangChain;FastAPI;PostgreSQL,33,0.94
+HIS0086,PRJ0118,Smart Inventory Prediction,7,LangChain;Python;FastAPI;TensorFlow,57,0.85
+HIS0087,PRJ0055,Fraud Detection System,8,Redis;TensorFlow;PostgreSQL,29,0.76
+HIS0088,PRJ0189,Document Summarization AI,5,LangChain;PostgreSQL,40,0.88
+HIS0089,PRJ0022,Autonomous AI Research Agent,8,Python;FastAPI,44,0.89
+HIS0090,PRJ0061,Smart Inventory Prediction,4,TensorFlow;PostgreSQL;Redis,15,0.86
+HIS0091,PRJ0044,Healthcare Diagnosis AI,5,Python;TensorFlow;FastAPI;LangChain,17,0.95
+HIS0092,PRJ0025,Smart Inventory Prediction,5,Redis;FastAPI;TensorFlow;PostgreSQL,54,0.94
+HIS0093,PRJ0072,Customer Support Chatbot,4,Python;LangChain;TensorFlow;PostgreSQL,51,0.83
+HIS0094,PRJ0016,Autonomous AI Research Agent,5,PostgreSQL;TensorFlow;Python,20,0.9
+HIS0095,PRJ0137,Fraud Detection System,5,Redis;FastAPI,26,0.84
+HIS0096,PRJ0133,Autonomous AI Research Agent,8,Redis;Python;LangChain,18,0.78
+HIS0097,PRJ0025,Document Summarization AI,8,Redis;PostgreSQL,45,0.78
+HIS0098,PRJ0144,Fraud Detection System,3,Python;TensorFlow;Redis,19,0.79
+HIS0099,PRJ0051,AI Sales Assistant,3,Redis;FastAPI;TensorFlow;LangChain,20,0.88
+HIS0100,PRJ0116,Fraud Detection System,4,Redis;FastAPI;TensorFlow,21,0.84
+HIS0101,PRJ0032,Fraud Detection System,5,PostgreSQL;Redis;Python;TensorFlow,40,0.94
+HIS0102,PRJ0050,Autonomous AI Research Agent,6,Redis;Python,54,0.84
+HIS0103,PRJ0088,Document Summarization AI,8,TensorFlow;FastAPI,26,0.92
+HIS0104,PRJ0116,AI Sales Assistant,7,TensorFlow;Redis;LangChain,37,0.95
+HIS0105,PRJ0038,Smart Inventory Prediction,7,PostgreSQL;Python;LangChain;TensorFlow,34,0.87
+HIS0106,PRJ0050,Customer Support Chatbot,8,Redis;TensorFlow;Python,45,0.97
+HIS0107,PRJ0082,Document Summarization AI,8,PostgreSQL;LangChain;TensorFlow,38,0.96
+HIS0108,PRJ0005,Customer Support Chatbot,5,PostgreSQL;LangChain,23,0.84
+HIS0109,PRJ0119,Smart Inventory Prediction,3,TensorFlow;FastAPI;LangChain,30,0.94
+HIS0110,PRJ0086,Autonomous AI Research Agent,7,TensorFlow;LangChain,56,0.94
+HIS0111,PRJ0024,Healthcare Diagnosis AI,3,LangChain;TensorFlow;PostgreSQL,18,0.86
+HIS0112,PRJ0037,AI Sales Assistant,7,Python;LangChain;TensorFlow;FastAPI,44,0.97
+HIS0113,PRJ0054,Healthcare Diagnosis AI,4,FastAPI;Redis,44,0.88
+HIS0114,PRJ0051,Customer Support Chatbot,5,Python;PostgreSQL;TensorFlow;LangChain,26,0.95
+HIS0115,PRJ0045,Smart Inventory Prediction,4,PostgreSQL;Redis,46,0.95
+HIS0116,PRJ0148,Autonomous AI Research Agent,5,TensorFlow;LangChain;PostgreSQL;Redis,31,0.93
+HIS0117,PRJ0009,Smart Inventory Prediction,7,Redis;TensorFlow,40,0.93
+HIS0118,PRJ0040,Document Summarization AI,7,PostgreSQL;FastAPI;Redis;LangChain,50,0.88
+HIS0119,PRJ0040,Fraud Detection System,3,TensorFlow;FastAPI;PostgreSQL,57,0.82
+HIS0120,PRJ0162,Smart Inventory Prediction,8,Redis;PostgreSQL;Python;LangChain,42,0.84
+HIS0121,PRJ0193,Document Summarization AI,4,Python;LangChain,34,0.79
+HIS0122,PRJ0053,Healthcare Diagnosis AI,7,PostgreSQL;Redis;Python,38,0.76
+HIS0123,PRJ0085,Customer Support Chatbot,5,FastAPI;TensorFlow,20,0.8
+HIS0124,PRJ0008,Autonomous AI Research Agent,7,TensorFlow;LangChain;PostgreSQL;Redis,45,0.89
+HIS0125,PRJ0172,Document Summarization AI,5,TensorFlow;LangChain,19,0.92
+HIS0126,PRJ0068,Smart Inventory Prediction,5,PostgreSQL;Redis,39,0.82
+HIS0127,PRJ0123,Healthcare Diagnosis AI,5,LangChain;Python;PostgreSQL,29,0.81
+HIS0128,PRJ0200,AI Sales Assistant,3,PostgreSQL;FastAPI;Redis;TensorFlow,59,0.96
+HIS0129,PRJ0174,Healthcare Diagnosis AI,6,Redis;Python,38,0.8
+HIS0130,PRJ0128,Document Summarization AI,3,Redis;FastAPI;LangChain,17,0.77
+HIS0131,PRJ0169,Fraud Detection System,4,Python;LangChain,34,0.82
+HIS0132,PRJ0065,Customer Support Chatbot,4,FastAPI;TensorFlow,50,0.83
+HIS0133,PRJ0139,Customer Support Chatbot,6,Redis;Python;PostgreSQL;LangChain,29,0.93
+HIS0134,PRJ0123,Autonomous AI Research Agent,6,Python;FastAPI,19,0.77
+HIS0135,PRJ0062,Autonomous AI Research Agent,3,PostgreSQL;Redis,17,0.82
+HIS0136,PRJ0175,Fraud Detection System,8,Python;LangChain,24,0.85
+HIS0137,PRJ0122,AI Sales Assistant,8,PostgreSQL;Python;LangChain,39,0.9
+HIS0138,PRJ0102,Autonomous AI Research Agent,4,FastAPI;Python;TensorFlow,35,0.87
+HIS0139,PRJ0136,AI Sales Assistant,5,FastAPI;PostgreSQL;Redis,52,0.78
+HIS0140,PRJ0115,AI Sales Assistant,4,LangChain;FastAPI;PostgreSQL;Python,48,0.9
+HIS0141,PRJ0141,Healthcare Diagnosis AI,8,FastAPI;Python;Redis,28,0.88
+HIS0142,PRJ0053,Fraud Detection System,5,Redis;FastAPI,49,0.8
+HIS0143,PRJ0155,Document Summarization AI,3,TensorFlow;FastAPI;LangChain;Redis,18,0.75
+HIS0144,PRJ0048,Fraud Detection System,7,TensorFlow;FastAPI;Redis;PostgreSQL,56,0.83
+HIS0145,PRJ0193,Document Summarization AI,4,Python;Redis,32,0.81
+HIS0146,PRJ0193,AI Sales Assistant,3,TensorFlow;FastAPI,31,0.97
+HIS0147,PRJ0029,Document Summarization AI,4,PostgreSQL;Python,41,0.88
+HIS0148,PRJ0116,Document Summarization AI,5,LangChain;TensorFlow,49,0.82
+HIS0149,PRJ0049,Document Summarization AI,3,TensorFlow;LangChain,54,0.83
+HIS0150,PRJ0177,Autonomous AI Research Agent,8,Python;FastAPI,17,0.93
+HIS0151,PRJ0094,Healthcare Diagnosis AI,7,FastAPI;PostgreSQL,19,0.92
+HIS0152,PRJ0005,Healthcare Diagnosis AI,5,TensorFlow;Python,19,0.93
+HIS0153,PRJ0100,Fraud Detection System,7,Redis;Python;FastAPI,36,0.87
+HIS0154,PRJ0087,Autonomous AI Research Agent,3,Python;FastAPI,41,0.76
+HIS0155,PRJ0109,Fraud Detection System,8,FastAPI;PostgreSQL;Python;Redis,46,0.84
+HIS0156,PRJ0078,Customer Support Chatbot,8,PostgreSQL;Python;LangChain;TensorFlow,18,0.96
+HIS0157,PRJ0027,Document Summarization AI,4,LangChain;PostgreSQL;FastAPI;TensorFlow,49,0.75
+HIS0158,PRJ0135,Healthcare Diagnosis AI,6,Redis;PostgreSQL;TensorFlow;FastAPI,30,0.81
+HIS0159,PRJ0032,Document Summarization AI,6,Redis;FastAPI,53,0.93
+HIS0160,PRJ0022,Healthcare Diagnosis AI,6,TensorFlow;LangChain,25,0.81
+HIS0161,PRJ0094,Autonomous AI Research Agent,4,Python;FastAPI,44,0.9
+HIS0162,PRJ0086,AI Sales Assistant,6,TensorFlow;FastAPI;PostgreSQL,18,0.9
+HIS0163,PRJ0082,Fraud Detection System,6,PostgreSQL;FastAPI,38,0.78
+HIS0164,PRJ0029,Healthcare Diagnosis AI,5,FastAPI;PostgreSQL;Python;TensorFlow,51,0.92
+HIS0165,PRJ0059,Customer Support Chatbot,6,Python;Redis,42,0.81
+HIS0166,PRJ0045,Healthcare Diagnosis AI,5,LangChain;FastAPI;PostgreSQL;TensorFlow,25,0.84
+HIS0167,PRJ0107,Smart Inventory Prediction,4,Python;Redis,55,0.94
+HIS0168,PRJ0122,Fraud Detection System,5,TensorFlow;LangChain;FastAPI,23,0.97
+HIS0169,PRJ0133,Fraud Detection System,8,PostgreSQL;LangChain;Python,35,0.76
+HIS0170,PRJ0075,Autonomous AI Research Agent,8,FastAPI;LangChain;PostgreSQL;Redis,20,0.85
+HIS0171,PRJ0062,Fraud Detection System,8,Redis;LangChain,22,0.78
+HIS0172,PRJ0182,Fraud Detection System,6,Python;Redis;PostgreSQL;LangChain,22,0.87
+HIS0173,PRJ0120,Document Summarization AI,7,Redis;TensorFlow;Python;FastAPI,56,0.76
+HIS0174,PRJ0157,Customer Support Chatbot,4,LangChain;FastAPI;Redis,19,0.81
+HIS0175,PRJ0179,Customer Support Chatbot,4,Python;PostgreSQL,51,0.77
+HIS0176,PRJ0038,Fraud Detection System,6,PostgreSQL;Redis;TensorFlow,22,0.79
+HIS0177,PRJ0147,Smart Inventory Prediction,7,TensorFlow;LangChain,15,0.9
+HIS0178,PRJ0098,Autonomous AI Research Agent,6,Redis;FastAPI;LangChain,34,0.98
+HIS0179,PRJ0125,Fraud Detection System,7,Python;FastAPI,39,0.76
+HIS0180,PRJ0076,Document Summarization AI,8,TensorFlow;Redis;Python;LangChain,39,0.86
+HIS0181,PRJ0069,Customer Support Chatbot,8,TensorFlow;Python,38,0.82
+HIS0182,PRJ0011,Healthcare Diagnosis AI,4,Python;LangChain;FastAPI,27,0.89
+HIS0183,PRJ0116,Fraud Detection System,4,PostgreSQL;LangChain,23,0.75
+HIS0184,PRJ0094,Fraud Detection System,4,Python;PostgreSQL;TensorFlow,26,0.83
+HIS0185,PRJ0099,Document Summarization AI,4,LangChain;FastAPI,23,0.85
+HIS0186,PRJ0029,Smart Inventory Prediction,8,PostgreSQL;Redis;LangChain;FastAPI,56,0.87
+HIS0187,PRJ0166,Smart Inventory Prediction,8,PostgreSQL;Redis,32,0.94
+HIS0188,PRJ0137,Customer Support Chatbot,7,LangChain;Python,27,0.85
+HIS0189,PRJ0114,Document Summarization AI,5,Redis;TensorFlow;Python;LangChain,59,0.97
+HIS0190,PRJ0154,Fraud Detection System,8,TensorFlow;Python;Redis;LangChain,35,0.9
+HIS0191,PRJ0013,Healthcare Diagnosis AI,5,PostgreSQL;Python;Redis;LangChain,53,0.83
+HIS0192,PRJ0015,Customer Support Chatbot,8,TensorFlow;Redis;PostgreSQL,18,0.89
+HIS0193,PRJ0072,Smart Inventory Prediction,4,Redis;LangChain,36,0.94
+HIS0194,PRJ0111,Document Summarization AI,3,PostgreSQL;Python;Redis;FastAPI,24,0.9
+HIS0195,PRJ0169,AI Sales Assistant,5,LangChain;Python,23,0.86
+HIS0196,PRJ0025,Autonomous AI Research Agent,8,FastAPI;Python,15,0.93
+HIS0197,PRJ0025,Customer Support Chatbot,3,PostgreSQL;TensorFlow;FastAPI,22,0.85
+HIS0198,PRJ0169,Document Summarization AI,6,TensorFlow;LangChain,42,0.86
+HIS0199,PRJ0087,Smart Inventory Prediction,6,Redis;FastAPI;Python;PostgreSQL,20,0.92
+HIS0200,PRJ0036,Document Summarization AI,5,FastAPI;Redis,26,0.93
+HIS0201,PRJ0021,Fraud Detection System,6,Python;TensorFlow;PostgreSQL,26,0.78
+HIS0202,PRJ0119,Document Summarization AI,5,LangChain;FastAPI;PostgreSQL,40,0.82
+HIS0203,PRJ0013,Smart Inventory Prediction,8,TensorFlow;Redis;LangChain;Python,29,0.77
+HIS0204,PRJ0001,Fraud Detection System,4,Python;LangChain;FastAPI,27,0.96
+HIS0205,PRJ0163,Smart Inventory Prediction,4,FastAPI;Redis;Python,30,0.87
+HIS0206,PRJ0085,Fraud Detection System,3,Redis;FastAPI;PostgreSQL;Python,58,0.84
+HIS0207,PRJ0003,Healthcare Diagnosis AI,7,TensorFlow;FastAPI;LangChain,57,0.97
+HIS0208,PRJ0013,Smart Inventory Prediction,8,Python;LangChain,27,0.88
+HIS0209,PRJ0155,Customer Support Chatbot,6,PostgreSQL;TensorFlow;Redis;LangChain,27,0.91
+HIS0210,PRJ0062,Document Summarization AI,5,PostgreSQL;Python;FastAPI,47,0.96
+HIS0211,PRJ0106,Customer Support Chatbot,7,PostgreSQL;TensorFlow;Redis;Python,52,0.83
+HIS0212,PRJ0022,Healthcare Diagnosis AI,8,Redis;Python;PostgreSQL;LangChain,45,0.88
+HIS0213,PRJ0144,Healthcare Diagnosis AI,5,FastAPI;TensorFlow;Redis;Python,20,0.94
+HIS0214,PRJ0193,Document Summarization AI,4,Redis;FastAPI;Python;PostgreSQL,48,0.85
+HIS0215,PRJ0094,Autonomous AI Research Agent,3,Python;TensorFlow,50,0.83
+HIS0216,PRJ0060,Smart Inventory Prediction,3,TensorFlow;Python;FastAPI,59,0.79
+HIS0217,PRJ0066,Fraud Detection System,3,FastAPI;LangChain,28,0.81
+HIS0218,PRJ0057,Autonomous AI Research Agent,6,Python;LangChain;FastAPI,29,0.95
+HIS0219,PRJ0151,AI Sales Assistant,5,FastAPI;Python,48,0.98
+HIS0220,PRJ0185,Smart Inventory Prediction,7,Redis;TensorFlow;PostgreSQL;Python,30,0.87
+HIS0221,PRJ0158,Fraud Detection System,6,Redis;LangChain,16,0.77
+HIS0222,PRJ0121,Fraud Detection System,7,Python;PostgreSQL;FastAPI,26,0.91
+HIS0223,PRJ0115,Healthcare Diagnosis AI,7,TensorFlow;PostgreSQL;FastAPI;Redis,20,0.88
+HIS0224,PRJ0015,Document Summarization AI,6,FastAPI;LangChain,33,0.85
+HIS0225,PRJ0132,Autonomous AI Research Agent,8,Redis;FastAPI;LangChain,50,0.82
+HIS0226,PRJ0164,Fraud Detection System,3,Redis;LangChain;TensorFlow,15,0.88
+HIS0227,PRJ0145,Autonomous AI Research Agent,3,Python;Redis;LangChain;FastAPI,18,0.79
+HIS0228,PRJ0195,Customer Support Chatbot,7,FastAPI;PostgreSQL;TensorFlow,47,0.78
+HIS0229,PRJ0049,Customer Support Chatbot,6,LangChain;TensorFlow,47,0.86
+HIS0230,PRJ0178,Document Summarization AI,8,PostgreSQL;LangChain,49,0.9
+HIS0231,PRJ0164,Autonomous AI Research Agent,7,LangChain;Python;TensorFlow;FastAPI,50,0.75
+HIS0232,PRJ0173,Autonomous AI Research Agent,7,TensorFlow;Redis;PostgreSQL,19,0.78
+HIS0233,PRJ0120,Healthcare Diagnosis AI,3,TensorFlow;PostgreSQL;Python,26,0.91
+HIS0234,PRJ0098,Smart Inventory Prediction,7,PostgreSQL;FastAPI;TensorFlow,46,0.75
+HIS0235,PRJ0092,Fraud Detection System,8,TensorFlow;PostgreSQL;Redis;FastAPI,49,0.96
+HIS0236,PRJ0056,Healthcare Diagnosis AI,3,Redis;FastAPI;LangChain,39,0.92
+HIS0237,PRJ0156,Customer Support Chatbot,8,TensorFlow;FastAPI;PostgreSQL,17,0.87
+HIS0238,PRJ0039,Autonomous AI Research Agent,5,LangChain;Redis,16,0.78
+HIS0239,PRJ0041,Autonomous AI Research Agent,4,LangChain;TensorFlow;Python;FastAPI,24,0.91
+HIS0240,PRJ0070,Customer Support Chatbot,4,PostgreSQL;TensorFlow,50,0.95
+HIS0241,PRJ0143,Smart Inventory Prediction,5,Python;LangChain;Redis,54,0.89
+HIS0242,PRJ0149,Document Summarization AI,7,FastAPI;Redis;LangChain;PostgreSQL,30,0.94
+HIS0243,PRJ0200,Smart Inventory Prediction,6,Redis;LangChain,57,0.78
+HIS0244,PRJ0109,Healthcare Diagnosis AI,7,Redis;PostgreSQL;TensorFlow;LangChain,46,0.85
+HIS0245,PRJ0118,Customer Support Chatbot,5,Python;Redis;PostgreSQL,35,0.77
+HIS0246,PRJ0109,AI Sales Assistant,8,LangChain;FastAPI;Python,38,0.86
+HIS0247,PRJ0127,Smart Inventory Prediction,7,FastAPI;LangChain;PostgreSQL,59,0.77
+HIS0248,PRJ0086,Document Summarization AI,7,Redis;Python,60,0.76
+HIS0249,PRJ0176,Healthcare Diagnosis AI,4,Redis;Python;FastAPI;TensorFlow,25,0.86
+HIS0250,PRJ0125,AI Sales Assistant,3,FastAPI;Python;PostgreSQL,43,0.8
+HIS0251,PRJ0195,Fraud Detection System,3,Python;FastAPI;LangChain,16,0.83
+HIS0252,PRJ0095,Autonomous AI Research Agent,4,PostgreSQL;FastAPI;LangChain,49,0.83
+HIS0253,PRJ0155,Fraud Detection System,8,FastAPI;PostgreSQL;TensorFlow,51,0.87
+HIS0254,PRJ0151,Document Summarization AI,4,TensorFlow;Redis;LangChain;FastAPI,25,0.85
+HIS0255,PRJ0191,Autonomous AI Research Agent,3,FastAPI;Redis;PostgreSQL,40,0.85
+HIS0256,PRJ0076,Customer Support Chatbot,5,Redis;FastAPI;Python,57,0.81
+HIS0257,PRJ0071,Customer Support Chatbot,3,FastAPI;PostgreSQL;TensorFlow;Redis,49,0.85
+HIS0258,PRJ0001,Healthcare Diagnosis AI,3,FastAPI;Python;PostgreSQL,31,0.77
+HIS0259,PRJ0168,Autonomous AI Research Agent,5,FastAPI;Redis;PostgreSQL;LangChain,28,0.75
+HIS0260,PRJ0163,Customer Support Chatbot,4,Python;Redis;PostgreSQL,50,0.97
+HIS0261,PRJ0029,Autonomous AI Research Agent,4,LangChain;TensorFlow;FastAPI;PostgreSQL,31,0.94
+HIS0262,PRJ0096,Fraud Detection System,4,Python;PostgreSQL,32,0.92
+HIS0263,PRJ0166,Autonomous AI Research Agent,4,FastAPI;TensorFlow,23,0.96
+HIS0264,PRJ0105,AI Sales Assistant,8,TensorFlow;Redis;FastAPI,58,0.83
+HIS0265,PRJ0111,Autonomous AI Research Agent,7,PostgreSQL;FastAPI;LangChain;Redis,25,0.94
+HIS0266,PRJ0068,Fraud Detection System,3,TensorFlow;LangChain,38,0.9
+HIS0267,PRJ0063,Document Summarization AI,6,TensorFlow;Python;LangChain;Redis,52,0.88
+HIS0268,PRJ0051,Fraud Detection System,8,TensorFlow;FastAPI;Redis;PostgreSQL,32,0.89
+HIS0269,PRJ0007,Smart Inventory Prediction,8,PostgreSQL;FastAPI;TensorFlow;Redis,46,0.77
+HIS0270,PRJ0089,Smart Inventory Prediction,4,Redis;PostgreSQL;LangChain;TensorFlow,46,0.87
+HIS0271,PRJ0128,AI Sales Assistant,7,FastAPI;LangChain,35,0.82
+HIS0272,PRJ0137,Fraud Detection System,8,PostgreSQL;Python;Redis;TensorFlow,47,0.82
+HIS0273,PRJ0160,Autonomous AI Research Agent,3,Python;PostgreSQL;TensorFlow,53,0.92
+HIS0274,PRJ0088,Document Summarization AI,6,LangChain;TensorFlow;Redis,53,0.97
+HIS0275,PRJ0033,AI Sales Assistant,3,Redis;PostgreSQL;FastAPI;LangChain,52,0.88
+HIS0276,PRJ0067,Document Summarization AI,3,Python;Redis,23,0.85
+HIS0277,PRJ0106,Document Summarization AI,7,LangChain;FastAPI;Python,45,0.77
+HIS0278,PRJ0166,Fraud Detection System,8,TensorFlow;PostgreSQL;Redis,54,0.83
+HIS0279,PRJ0184,Smart Inventory Prediction,8,Python;PostgreSQL,49,0.91
+HIS0280,PRJ0110,AI Sales Assistant,8,LangChain;Python,20,0.92
+HIS0281,PRJ0088,Document Summarization AI,4,Python;FastAPI;TensorFlow,50,0.8
+HIS0282,PRJ0114,Document Summarization AI,8,TensorFlow;FastAPI,56,0.88
+HIS0283,PRJ0179,Smart Inventory Prediction,6,FastAPI;LangChain,52,0.8
+HIS0284,PRJ0127,Fraud Detection System,4,LangChain;FastAPI;Python,54,0.86
+HIS0285,PRJ0101,Smart Inventory Prediction,4,TensorFlow;FastAPI;Redis,21,0.84
+HIS0286,PRJ0069,Document Summarization AI,5,Python;Redis;LangChain,31,0.91
+HIS0287,PRJ0186,Document Summarization AI,7,Python;FastAPI;TensorFlow,36,0.79
+HIS0288,PRJ0177,Customer Support Chatbot,6,FastAPI;LangChain,35,0.97
+HIS0289,PRJ0095,Healthcare Diagnosis AI,3,Python;FastAPI,25,0.84
+HIS0290,PRJ0003,Healthcare Diagnosis AI,5,TensorFlow;FastAPI,31,0.76
+HIS0291,PRJ0174,Fraud Detection System,4,Python;LangChain;FastAPI;TensorFlow,34,0.82
+HIS0292,PRJ0052,Healthcare Diagnosis AI,5,FastAPI;LangChain;PostgreSQL;Redis,24,0.86
+HIS0293,PRJ0114,Smart Inventory Prediction,6,TensorFlow;Redis,19,0.91
+HIS0294,PRJ0017,Document Summarization AI,7,Redis;TensorFlow;Python,43,0.89
+HIS0295,PRJ0120,Document Summarization AI,5,Python;Redis;LangChain;TensorFlow,22,0.94
+HIS0296,PRJ0017,Healthcare Diagnosis AI,7,Redis;FastAPI;LangChain;TensorFlow,48,0.83
+HIS0297,PRJ0092,Fraud Detection System,6,LangChain;FastAPI;Redis,33,0.96
+HIS0298,PRJ0074,Customer Support Chatbot,3,PostgreSQL;Python,44,0.84
+HIS0299,PRJ0078,Autonomous AI Research Agent,8,LangChain;Python,34,0.82
+HIS0300,PRJ0078,Autonomous AI Research Agent,5,FastAPI;LangChain,28,0.97

@@ -24,6 +24,7 @@ const ProjectSchema = new Schema(
     required_skills: [String],
     deadline_days: Number,
     priority: String,
+    rawText: String, // For PDF content that needs LLM processing
     userUid: String,
     feedId: { type: String, index: true },
   },
